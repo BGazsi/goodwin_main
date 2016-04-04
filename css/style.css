@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*common classes*/
+.gradient-cover {
+    height: 800px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: none; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0), white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(255, 255, 255, 0), white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(255, 255, 255, 0), white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(255, 255, 255, 0), #F9F9F9); /* Standard syntax */
+    width: 100%;
+}
+
+.block {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    padding: 30px 0;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.content--sm {
+    max-width: 500px;
+    padding-bottom: 50px;
+}
+
+.content--md {
+    max-width: 900px;
+}
+
+.content--lg {
+    width: 100%;
+}
+
+.paragraph {
+    font-size: 16px;
+    line-height: 1.41;
+}
+
+.paragraph--dark {
+    color: #747474;
+}
+
+.paragraph--light {
+    color: #fff;
+}
+
+/*boxes on desktop*/
+.box {
+    width: 285px;
+    height: 450px;
+    background: #fff;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.box:not(:last-of-type){
+    margin-right: 10px;
+}
+
+.box__top {
+    height: 60%;
+    padding: 75px 0 15px 0;
+}
+
+.box__top img {
+    margin: auto;
+}
+
+.box__bottom {
+    height: 40%;
+}
+
+/*height not to depend on content*/
+.box__bottom p {
+    display: inline-flex;
+}
+
+@media (max-width: 990px) {
+    .content--md {
+        width: 85%;
+    }
+    .box {
+        display: none;
+    }
+
+    .box--mobile {
+        display: block;
+    }
+
+    .row-table {
+        display: table !important;
+    }
+    .row-table .row-cell {
+        display: table-cell;
+        float: none;
+    }
+    .row-table .row-cell--vcenter {
+        vertical-align: middle;
+    }
+}
+@media (min-width: 991px) {
+    .content--md {
+        width: 95%;
+    }
+    .box {
+        display: inline-block;
+    }
+
+    .box--mobile,
+    .row-table {
+        display: none;
+    }
+}
+
+/*boxes on mobile*/
+.box--mobile {
+    width: 100%;
+    background: #fff;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    padding: 40px 20px;
+    display: none;
+    text-align: left;
+    margin: 0 auto 20px;
+}
+
+/*headers*/
+h1, h2, h3 {
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 800;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.header {
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+    color: #555;
+    height: 90px;
+}
+
+.header--white {
+    background: #fff;
+}
+
+/*carousel*/
+.carousel-control,
+.carousel-control.right,
+.carousel-control.left {
+    background: none;
+}
+
+.carousel-inner {
+    width: 75%;
+    margin: 0 auto;
+}
+
+/*blocks*/
+.block__one {
+    background-image: url('../img/wp1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+}
+
+.block__two {
+    background-image: url('../img/wp1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.block__three p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.block__four {
+    background-image: url('../img/wp1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
