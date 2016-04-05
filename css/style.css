@@ -13,13 +13,25 @@ body {
     background: -webkit-linear-gradient(rgba(255, 255, 255, 0), white); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(rgba(255, 255, 255, 0), white); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(rgba(255, 255, 255, 0), white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(rgba(255, 255, 255, 0), #F9F9F9); /* Standard syntax */
+    background: linear-gradient(rgba(255, 255, 255, 0.5), #F9F9F9); /* Standard syntax */
+    width: 100%;
+    z-index: 1;
+}
+.wp {
+    background-image: url('../img/wp1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
 }
 
 .block {
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 .content {
@@ -156,11 +168,25 @@ h1 {
     font-size: 30px;
 }
 
+h3 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.header-container {
+    height: 95px;
+    display: block;
+}
+
 .header {
+    position: absolute;
+    top: 5px;
     padding-top: 30px;
     width: 100%;
     text-align: center;
-    color: #555;
+    color: #333;
     height: 90px;
 }
 
@@ -173,23 +199,59 @@ h1 {
 .carousel-control.right,
 .carousel-control.left {
     background: none;
+    top: 150px;
+    bottom: auto;
 }
 
 .carousel-inner {
-    width: 75%;
+    width: 60%;
     margin: 0 auto;
 }
 
+.item {
+    height: 520px;
+}
+
+.item p {
+    margin-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+    .carousel-inner {
+        width: 75%;
+    }
+    .block__two .content--md {
+        width: 100%;
+    }
+
+    h3 {
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .item {
+        height: 560px;
+    }
+}
+
 /*blocks*/
+
 .block__one {
-    background-image: url('../img/wp1.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
     height: 800px;
+    z-index: 2;
+}
+
+.block__one .logo {
+    margin: 250px auto 0 auto;
+}
+
+.block__one .content {
+    z-index: 95;
 }
 
 .block__two {
-    background-image: url('../img/wp1.jpg');
+    background-image: url('../img/wp2.png');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -200,7 +262,7 @@ h1 {
 }
 
 .block__four {
-    background-image: url('../img/wp1.jpg');
+    background-image: url('../img/wp4.png');
     background-repeat: no-repeat;
     background-position: center;
 }
