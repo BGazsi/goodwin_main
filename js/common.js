@@ -12,4 +12,11 @@ $(document).ready(function() {
             }
         }
     });
+
+    $('.carousel-control.left').on('click', function() {
+        $(this).closest('.carousel').carousel('prev');
+    });
+    $('.carousel-control.right').on('click', function() {
+        $(this).closest('.carousel').carousel('next');
+    });
 });
