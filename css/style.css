@@ -14,6 +14,13 @@ body {
     display: none;
 }
 
+a.anchor {
+    display: block;
+    position: relative;
+    top: -40px;
+    visibility: hidden;
+}
+
 /*common classes*/
 .gradient-cover {
     height: 800px;

@@ -27,7 +27,8 @@
         </div>
     </div>
 
-    <div class="block block__two" id="what">
+    <div class="block block__two">
+        <a class="anchor" id="what"></a>
         <div class="header-container">
             <div class="header header--white"><h1><img src="img/dots.png" alt="dots" class="header-before"/>What we do</h1></div>
         </div>
@@ -128,7 +129,8 @@
         </div>
     </div>
 
-    <div class="block block__three" id="how">
+    <div class="block block__three">
+        <a class="anchor" id="how"></a>
         <div class="header-container">
             <div class="header header--white"><h1><img src="img/dots.png" alt="dots" class="header-before"/>How we work</h1></div>
         </div>
@@ -141,8 +143,8 @@
         </div>
     </div>
 
-    <div class="block block__four" id="reasons">
-
+    <div class="block block__four">
+        <a class="anchor" id="reasons"></a>
         <div class="header-container">
             <div class="header row-table--mobile">
                 <div class="row-cell row-cell--vcenter">
@@ -209,8 +211,8 @@
         </div>
     </div>
 
-    <div class="block block__five" id="about">
-
+    <div class="block block__five">
+        <a class="anchor" id="about"></a>
         <div class="header-container">
             <div class="header"><h1><img src="img/dots.png" alt="dots" class="header-before"/>About</h1></div>
         </div>
@@ -246,8 +248,8 @@
     </div>
 
     <div class="block block__six">
-
-        <div class="header-container" id="contact">
+        <a class="anchor" id="contact"></a>
+        <div class="header-container">
             <div class="header header--white"><h1><img src="img/dots.png" alt="dots" class="header-before"/>Contact</h1></div>
         </div>
         <div class="content content--sm">
