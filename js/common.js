@@ -26,3 +26,13 @@ $(document).ready(function() {
         $('.block__five .row-table').removeClass('row-table');
     }
 });
+
+$(document).scroll(function () {
+    var y = $(this).scrollTop();
+    if (y > 100) {
+        $('.header-bar').fadeIn();
+    } else {
+        $('.header-bar').fadeOut();
+    }
+
+});

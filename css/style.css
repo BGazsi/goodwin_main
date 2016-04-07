@@ -3,6 +3,17 @@ body {
     padding: 0;
 }
 
+.header-bar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    background: #FF9595;
+    z-index: 3;
+    clip: rect(auto auto auto auto);
+    display: none;
+}
+
 /*common classes*/
 .gradient-cover {
     height: 800px;

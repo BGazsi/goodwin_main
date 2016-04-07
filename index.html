@@ -10,7 +10,13 @@
 
 <body>
 
-<div class="main-wrapper">
+<header>
+    <div class="header-bar">
+
+    </div>
+</header>
+
+<main class="main-wrapper">
 
     <div class="gradient-cover">
     </div>
@@ -269,23 +275,24 @@
         </div>
     </div>
 
-    <footer class="block footer">
+</main>
 
-        <div class="content content--md text-center">
-            <a href="#" class="pull-right"><img src="img/in.png" alt="in" class="img-responsive"/></a>
-            <a href="#what" class="footer-link">What</a>
-            <span class="footer-separator"></span>
-            <a href="#how" class="footer-link">How</a>
-            <span class="footer-separator"></span>
-            <a href="#reasons" class="footer-link">3 Reasons</a>
-            <span class="footer-separator"></span>
-            <a href="#about" class="footer-link">About</a>
-            <span class="footer-separator"></span>
-            <a href="#contact" class="footer-link">Contact</a>
+<footer class="block footer">
 
-        </div>
-    </footer>
-</div>
+    <div class="content content--md text-center">
+        <a href="#" class="pull-right"><img src="img/in.png" alt="in" class="img-responsive"/></a>
+        <a href="#what" class="footer-link">What</a>
+        <span class="footer-separator"></span>
+        <a href="#how" class="footer-link">How</a>
+        <span class="footer-separator"></span>
+        <a href="#reasons" class="footer-link">3 Reasons</a>
+        <span class="footer-separator"></span>
+        <a href="#about" class="footer-link">About</a>
+        <span class="footer-separator"></span>
+        <a href="#contact" class="footer-link">Contact</a>
+
+    </div>
+</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
