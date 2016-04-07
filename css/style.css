@@ -18,7 +18,7 @@ body {
     z-index: 1;
 }
 .wp {
-    background-image: url('../img/wp1.png');
+    background-image: url('../img/wp1-min.png');
     background-repeat: no-repeat;
     background-position: center;
     height: 800px;
@@ -102,6 +102,15 @@ body {
     display: inline-flex;
 }
 
+.row-table .row-cell {
+    display: table-cell;
+    float: none;
+}
+.row-table .row-cell--vcenter {
+    vertical-align: middle;
+}
+
+
 @media (max-width: 990px) {
     .content--md {
         width: 85%;
@@ -114,15 +123,8 @@ body {
         display: block;
     }
 
-    .row-table {
+    .block__four .row-table {
         display: table !important;
-    }
-    .row-table .row-cell {
-        display: table-cell;
-        float: none;
-    }
-    .row-table .row-cell--vcenter {
-        vertical-align: middle;
     }
 }
 @media (min-width: 991px) {
@@ -133,8 +135,8 @@ body {
         display: inline-block;
     }
 
-    .box--mobile,
-    .row-table {
+    .block__four .box--mobile,
+    .block__four .row-table {
         display: none;
     }
 }
@@ -158,6 +160,11 @@ h1, h2, h3 {
     text-transform: uppercase;
     margin: 0;
     font-weight: 800;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 5px;
 }
 
 p {
@@ -251,7 +258,7 @@ h3 {
 }
 
 .block__two {
-    background-image: url('../img/wp2.png');
+    background-image: url('../img/wp2-min.png');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -262,7 +269,58 @@ h3 {
 }
 
 .block__four {
-    background-image: url('../img/wp4.png');
+    background-image: url('../img/wp4-min.png');
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.block__five .about--small {
+    text-align: center;
+    width: 100%;
+    padding: 60px 25%;
+    border-top: 5px solid #c3c3c3;
+}
+
+@media(max-width: 768px) {
+    .block__five .row.row-table {
+        margin-bottom: 60px;
+    }
+    .block__five .row-table .row-cell {
+        display: block !important;
+    }
+}
+
+.block__five .row {
+    margin: 0;
+}
+
+.block__six {
+    background-image: url('../img/wp6-min.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+p.email {
+    margin-bottom: 5px;
+}
+
+footer {
+    padding: 25px 10px 40px;
+    background: #2F2F2F;
+}
+
+.footer-link {
+    color: white;
+    padding: 0 10px;
+    padding-left: 20px;
+}
+
+
+
+.footer-separator:after {
+    content: "\2022";
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
 }

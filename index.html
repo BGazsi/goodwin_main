@@ -201,33 +201,82 @@
     <div class="block block__five">
 
         <div class="header-container">
-            <div class="header"><h1></h1></div>
+            <div class="header"><h1>About</h1></div>
         </div>
-        <div class="content content--md">
+        <div class="content content--lg">
+            <div class="row row-table">
+                <div class="col-sm-6 row-cell row-cell--vcenter">
+                    <img src="img/goodwin.png" alt="Garyy Goodwin" class="img-responsive"/>
+                </div>
+                <div class="col-sm-6 row-cell row-cell--vcenter">
+                    <h4>Gary Goodwin - Founder</h4>
+                    <p class="paragraph paragraph--dark">My entire career has been focused on helping brands, individuals and teams to transform and out-
+                        perform. I have a proven track record of successfully leading change, building teams and unlocking
+                        growth across diverse categories, geographies and cultures.</p><br/>
+                    <p class="paragraph paragraph--dark">Working with people at all levels within multinational and Japanese advertising and marketing
+                        companies, my focus is to help people excel and inspire within their business environment.</p>
+                    <br/>
+                    <p class="paragraph paragraph--dark">Over 30 years corporate experience of managing complex business challenges, coaching and
+                        mentoring individuals and teams, my life long philosophy is to help people to "Do something you
+                        love".</p>
+                </div>
+            </div>
+            <div class="about--small">
+                <h4>Michael Long - Senior consulant</h4>
+                <p class="paragraph paragraph--dark">A bilingual business professional with 15 years working experience in Japan. A natural net­worker
+                    who enjoys seeing connections thrive.</p>
+            </div>
+            <div class="about--small">
+                <h4>Mio Kobayashi – Research Consultant</h4>
+                <p class="paragraph paragraph--dark">A natural people person who loves helping people expand their horizons.</p>
+
+            </div>
         </div>
     </div>
 
     <div class="block block__six">
 
         <div class="header-container">
-            <div class="header"><h1></h1></div>
+            <div class="header header--white"><h1>Contact</h1></div>
         </div>
-        <div class="content content--md">
+        <div class="content content--sm">
+            <h2 class="text-left">Hello. <br/> How can we help you?</h2>
+            <p class="paragraph paragraph--light">Searching for a new career opportunity, seeking career advice, or simply curious on how to develop
+                your professional skills, please get in touch with us.</p> <br/>
+            <p class="paragraph paragraph--light email">garygoodwin@goodwin­company.com</p>
+            <p class="paragraph paragraph--light">080­3405­2142</p> <br/>
+            <p class="paragraph paragraph--light email">michaellong@goodwin­company.com</p>
+            <p class="paragraph paragraph--light">090­9323­3062</p> <br/>
+            <p class="paragraph paragraph--light email">miokobayashi@goodwin­company.com</p>
+            <p class="paragraph paragraph--light">090­5556­6377</p> <br/>
+            <p class="paragraph paragraph--light">Where to find us:</p>
+            <p class="paragraph paragraph--light">Ebisu MJ Bldg 3F</p>
+            <p class="paragraph paragraph--light">3­19­10 Higashi</p>
+            <p class="paragraph paragraph--light">Shibuya­Ku</p>
+            <p class="paragraph paragraph--light">Tokyo 150­0011</p>
+            <p class="paragraph paragraph--light">Tel: 03­6427­2374</p>
         </div>
     </div>
 
     <div class="block block__seven">
-
-        <div class="header-container">
-            <div class="header"><h1></h1></div>
-        </div>
-        <div class="content content--md">
+        <div class="content--lg">
+            <img src="img/map.png" alt="map" class="img-responsive"/>
         </div>
     </div>
 
     <footer class="block footer">
 
-        <div class="content content--md">
+        <div class="content content--sm">
+            <a href="#" class="footer-link">What</a>
+            <span class="footer-separator"></span>
+            <a href="#" class="footer-link">How</a>
+            <span class="footer-separator"></span>
+            <a href="#" class="footer-link">3 Reasons</a>
+            <span class="footer-separator"></span>
+            <a href="#" class="footer-link">About</a>
+            <span class="footer-separator"></span>
+            <a href="#" class="footer-link">Contact</a>
+            <a href="#" class="pull-right"><img src="img/in.png" alt="in"/></a>
 
         </div>
     </footer>
