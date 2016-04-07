@@ -18,6 +18,10 @@ body {
     padding-top: 17px;
 }
 
+.menu-control {
+    cursor: pointer;
+}
+
 .header-bar img {
     max-width: 25px;
 }
