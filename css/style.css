@@ -137,6 +137,10 @@ a:hover, a:active, a:focus {
     }
 }
 
+.row-table--desktop .row-cell {
+    width: 50%
+}
+
 
 @media (max-width: 990px) {
     .content--md {

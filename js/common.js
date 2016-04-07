@@ -19,4 +19,10 @@ $(document).ready(function() {
     $('.carousel-control.right').on('click', function() {
         $(this).closest('.carousel').carousel('next');
     });
+
+    if(navigator.userAgent.toLowerCase().indexOf('firefox') > -1
+        || navigator.userAgent.toLowerCase().indexOf('msie') > 0
+        || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {
+        $('.block__five .row-table').removeClass('row-table');
+    }
 });
