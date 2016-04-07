@@ -7,17 +7,25 @@ body {
     width: 100%;
     position: fixed;
     top: 0;
-    height: 50px;
+    height: 60px;
     background: #FF9595;
     z-index: 3;
     clip: rect(auto auto auto auto);
     display: none;
 }
 
+.header-bar .content--md {
+    padding-top: 17px;
+}
+
+.header-bar img {
+    max-width: 25px;
+}
+
 a.anchor {
     display: block;
     position: relative;
-    top: -40px;
+    top: -50px;
     visibility: hidden;
 }
 

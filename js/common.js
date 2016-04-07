@@ -25,6 +25,20 @@ $(document).ready(function() {
         || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {
         $('.block__five .row-table').removeClass('row-table');
     }
+
+    $('.menu-control').on('click', function(e) {
+        var $target = $(e.target);
+        var ham = $target.data('hamburger');
+        var close = $target.data('close');
+        var state = $target.data('state');
+        if(state==='hamburger') {
+            $target.prop('src', close);
+            $target.data('state', 'close');
+        } else {
+            $target.prop('src', ham);
+            $target.data('state', 'hamburger');
+        }
+    })
 });
 
 $(document).scroll(function () {
