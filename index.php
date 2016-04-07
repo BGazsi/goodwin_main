@@ -21,7 +21,7 @@
         </div>
     </div>
 
-    <div class="block block__two">
+    <div class="block block__two" id="what">
         <div class="header-container">
             <div class="header header--white"><h1><img src="img/dots.png" alt="dots" class="header-before"/>What we do</h1></div>
         </div>
@@ -122,7 +122,7 @@
         </div>
     </div>
 
-    <div class="block block__three">
+    <div class="block block__three" id="how">
         <div class="header-container">
             <div class="header header--white"><h1><img src="img/dots.png" alt="dots" class="header-before"/>How we work</h1></div>
         </div>
@@ -135,7 +135,7 @@
         </div>
     </div>
 
-    <div class="block block__four">
+    <div class="block block__four" id="reasons">
 
         <div class="header-container">
             <div class="header row-table--mobile">
@@ -203,7 +203,7 @@
         </div>
     </div>
 
-    <div class="block block__five">
+    <div class="block block__five" id="about">
 
         <div class="header-container">
             <div class="header"><h1><img src="img/dots.png" alt="dots" class="header-before"/>About</h1></div>
@@ -241,7 +241,7 @@
 
     <div class="block block__six">
 
-        <div class="header-container">
+        <div class="header-container" id="contact">
             <div class="header header--white"><h1><img src="img/dots.png" alt="dots" class="header-before"/>Contact</h1></div>
         </div>
         <div class="content content--sm">
@@ -273,15 +273,15 @@
 
         <div class="content content--md text-center">
             <a href="#" class="pull-right"><img src="img/in.png" alt="in" class="img-responsive"/></a>
-            <a href="#" class="footer-link">What</a>
+            <a href="#what" class="footer-link">What</a>
             <span class="footer-separator"></span>
-            <a href="#" class="footer-link">How</a>
+            <a href="#how" class="footer-link">How</a>
             <span class="footer-separator"></span>
-            <a href="#" class="footer-link">3 Reasons</a>
+            <a href="#reasons" class="footer-link">3 Reasons</a>
             <span class="footer-separator"></span>
-            <a href="#" class="footer-link">About</a>
+            <a href="#about" class="footer-link">About</a>
             <span class="footer-separator"></span>
-            <a href="#" class="footer-link">Contact</a>
+            <a href="#contact" class="footer-link">Contact</a>
 
         </div>
     </footer>
