@@ -66,6 +66,11 @@ body {
     color: #fff;
 }
 
+a:hover, a:active, a:focus {
+    color: rgba(255, 80, 80, 1);
+    text-decoration: none;
+}
+
 /*boxes on desktop*/
 .box {
     width: 285px;
@@ -304,15 +309,21 @@ p.email {
     margin-bottom: 5px;
 }
 
-footer {
+footer.block {
     padding: 25px 10px 40px;
     background: #2F2F2F;
 }
 
+footer img {
+    width: 45px;
+}
+
 .footer-link {
     color: white;
-    padding: 0 10px;
-    padding-left: 20px;
+    padding: 0 20px;
+    padding-left: 32px;
+    display: inline-block;
+    margin-top: 15px;
 }
 
 .footer-separator:after {
@@ -320,5 +331,23 @@ footer {
     color: white;
     font-size: 30px;
     position: absolute;
-    top: 20px;
+    top: 60px;
+}
+
+@media (max-width: 990px) {
+    .footer-link {
+        display: block;
+        padding: 0;
+        margin-top: 15px;
+    }
+
+    .footer-separator,
+    .footer-separator:after {
+        display: none;
+    }
+
+    footer img {
+        position: absolute;
+        right: 45px;
+    }
 }
