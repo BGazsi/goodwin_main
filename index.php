@@ -23,7 +23,7 @@
 
     <div class="block block__two">
         <div class="header-container">
-            <div class="header header--white"><h1>What we do</h1></div>
+            <div class="header header--white"><h1><img src="img/dots.png" alt="dots" class="header-before"/>What we do</h1></div>
         </div>
         <div class="content content--md">
             <div id="whatWeDoCarousel" class="carousel slide" data-ride="false">
@@ -124,7 +124,7 @@
 
     <div class="block block__three">
         <div class="header-container">
-            <div class="header header--white"><h1>How we work</h1></div>
+            <div class="header header--white"><h1><img src="img/dots.png" alt="dots" class="header-before"/>How we work</h1></div>
         </div>
         <div class="content content--sm">
             <p class="paragraph paragraph--dark">
@@ -138,7 +138,12 @@
     <div class="block block__four">
 
         <div class="header-container">
-            <div class="header"><h1>3 reasons to work with us</h1></div>
+            <div class="header row-table--mobile">
+                <div class="row-cell row-cell--vcenter">
+                    <img src="img/dots.png" alt="dots" class="header-before"/>
+                </div>
+                <h1 class="row-cell">3 reasons to work with us</h1>
+            </div>
         </div>
         <div class="content content--md">
             <div class="box">
@@ -201,7 +206,7 @@
     <div class="block block__five">
 
         <div class="header-container">
-            <div class="header"><h1>About</h1></div>
+            <div class="header"><h1><img src="img/dots.png" alt="dots" class="header-before"/>About</h1></div>
         </div>
         <div class="content content--lg">
             <div class="row row-table">
@@ -237,7 +242,7 @@
     <div class="block block__six">
 
         <div class="header-container">
-            <div class="header header--white"><h1>Contact</h1></div>
+            <div class="header header--white"><h1><img src="img/dots.png" alt="dots" class="header-before"/>Contact</h1></div>
         </div>
         <div class="content content--sm">
             <h2 class="text-left">Hello. <br/> How can we help you?</h2>
@@ -266,7 +271,8 @@
 
     <footer class="block footer">
 
-        <div class="content content--sm">
+        <div class="content content--md text-center">
+            <a href="#" class="pull-right"><img src="img/in.png" alt="in" class="img-responsive"/></a>
             <a href="#" class="footer-link">What</a>
             <span class="footer-separator"></span>
             <a href="#" class="footer-link">How</a>
@@ -276,7 +282,6 @@
             <a href="#" class="footer-link">About</a>
             <span class="footer-separator"></span>
             <a href="#" class="footer-link">Contact</a>
-            <a href="#" class="pull-right"><img src="img/in.png" alt="in"/></a>
 
         </div>
     </footer>
