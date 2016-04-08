@@ -1,18 +1,4 @@
 $(document).ready(function() {
-    //smooth scroll
-    $('a[href*=#]:not([href=#])').click(function() {
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-            if (target.length) {
-                $('html,body').animate({
-                    scrollTop: target.offset().top
-                }, 1000);
-                return false;
-            }
-        }
-    });
-
     //carousel leptetes, hogy ne udorjon a tetejere
     $('.carousel-control.left').on('click', function() {
         $(this).closest('.carousel').carousel('prev');
@@ -30,13 +16,12 @@ $(document).ready(function() {
 
     $('.menu-control').on('click', changeState);
     $('.header-link').on('click', changeState);
-
 });
 
 //header megjelenitese gorgetes utan
 $(document).scroll(function () {
     var y = $(this).scrollTop();
-    if (y > 250) {
+    if (y > 50) {
         $('.header-bar').fadeIn();
     } else {
         $('.header-bar').fadeOut();
