@@ -35,12 +35,12 @@ body {
 .menu-control {
     cursor: pointer;
 }
-
+/*
 @media(min-width: 991px){
     .menu-control--close {
         margin-right: 10px;
     }
-}
+}*/
 
 .header-bar img,
 .top-header-bar img{
@@ -54,6 +54,18 @@ body {
     background: #FF9595;
     z-index: 3;
     display: none;
+}
+
+.menu-bg .content--md {
+    margin-top: 60px;
+}
+
+.header-link {
+    color: white;
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 a.anchor {

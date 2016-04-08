@@ -11,7 +11,13 @@
 <body>
 
 <div class="menu-bg">
-
+    <div class="content content--md text-center">
+        <a href="#what" class="header-link">What</a>
+        <a href="#how" class="header-link">How</a>
+        <a href="#reasons" class="header-link">3 Reasons</a>
+        <a href="#about" class="header-link">About</a>
+        <a href="#contact" class="header-link">Contact</a>
+    </div>
 </div>
 
 <header>
