@@ -36,8 +36,10 @@ body {
     cursor: pointer;
 }
 
-.menu-control--close {
-    margin-right: 10px;
+@media(min-width: 991px){
+    .menu-control--close {
+        margin-right: 10px;
+    }
 }
 
 .header-bar img,
