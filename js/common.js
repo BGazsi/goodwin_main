@@ -1,6 +1,5 @@
-//smooth scroll
 $(document).ready(function() {
-    screen.orientation.lock("portrait-primary");
+    //smooth scroll
     $('a[href*=#]:not([href=#])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
             var target = $(this.hash);
@@ -14,6 +13,7 @@ $(document).ready(function() {
         }
     });
 
+    //carousel leptetes, hogy ne udorjon a tetejere
     $('.carousel-control.left').on('click', function() {
         $(this).closest('.carousel').carousel('prev');
     });
@@ -33,6 +33,7 @@ $(document).ready(function() {
 
 });
 
+//header megjelenitese gorgetes utan
 $(document).scroll(function () {
     var y = $(this).scrollTop();
     if (y > 250) {
@@ -42,6 +43,7 @@ $(document).scroll(function () {
     }
 });
 
+//manu nyitasa-csukasa
 var changeState = function(e) {
     var $buttons = $('.menu-control');
     var state, ham, close;
