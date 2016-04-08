@@ -28,20 +28,26 @@ $(document).ready(function() {
 
     $('.menu-control').on('click', function(e) {
         var $target = $(e.target);
+        var state = $target.data('state');
         var ham = $target.data('hamburger');
         var close = $target.data('close');
-        var state = $target.data('state');
+        var $buttons = $('.menu-control');
+
         if(state==='hamburger') {
-            $target.prop('src', close);
-            $target.data('state', 'close');
-            $target.addClass('menu-control--close');
+            $.each($buttons, function(key, value){
+                $(value).prop('src', close);
+                $(value).data('state', 'close');
+                $(value).addClass('menu-control--close');
+            });
             $('.menu-bg').show();
             $('body, html').addClass('stop-scrolling');
             $('body').bind('touchmove', function(e){e.preventDefault()});
         } else {
-            $target.prop('src', ham);
-            $target.data('state', 'hamburger');
-            $target.removeClass('menu-control--close');
+            $.each($buttons, function(key, value) {
+                $(value).prop('src', ham);
+                $(value).data('state', 'hamburger');
+                $(value).removeClass('menu-control--close');
+            });
             $('.menu-bg').hide();
             $('body, html').removeClass('stop-scrolling');
             $('body').unbind('touchmove');
@@ -57,5 +63,4 @@ $(document).scroll(function () {
     } else {
         $('.header-bar').fadeOut();
     }
-
 });
