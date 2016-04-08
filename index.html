@@ -6,9 +6,59 @@
     <title>Goodwin & Company</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        function initialize()
+        {
+            var myLatlng = new google.maps.LatLng(35.650279, 139.709274)
+            var map = new google.maps.Map(document.getElementById("map"),
+                    {
+                        zoom: 17,
+                        center: myLatlng,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP
+                    });
+
+            var marker = new google.maps.Marker({
+                position: myLatlng,
+                map: map,
+                draggable:true,
+                title:"Drag me!"
+            });
+
+            map.set('styles', [
+                {
+                    featureType: 'road',
+                    elementType: 'geometry',
+                    stylers: [
+                        { color: 'white' }
+                    ]
+                }, {
+                    featureType: 'road',
+                    elementType: 'labels',
+                    stylers: [
+                        { saturation: -100 },
+                        { invert_lightness: true }
+                    ]
+                }, {
+                    featureType: "all",
+                    elementType: "labels",
+                    stylers: [
+                        { visibility: "off" }
+                    ]
+                }, {
+                    featureType: 'landscape',
+                    elementType: 'geometry',
+                    stylers: [
+                        { color: '#ffd5d5' }
+                    ]
+                }
+            ]);
+        }
+    </script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 </head>
 
-<body>
+<body onload="initialize()">
 
 <div class="menu-bg">
     <div class="content content--md text-center">
@@ -290,58 +340,10 @@
 
     <div class="block block__seven">
         <div class="content--lg">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.0842651313355!2d139.707089515258!3d35.650295480201564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b42340abad7%3A0x92a7bc4a946fcd98!2s3+Chome-19-10+Higashi%2C+Shibuya-ku%2C+T%C5%8Dky%C5%8D-to+150-0011%2C+Jap%C3%A1n!5e0!3m2!1shu!2sus!4v1460133437758" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <div id="map" style="width: 100%; height:455px"></div>
         </div>
     </div>
 
-    <div id="googleMap" style="width:500px;height:380px;"></div>
-    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDJeEMSZoaSRWBYk4sY2iJPWOcip6Jhbn0"></script>
-    <script>
-        function initialize() {
-
-            // Create an array of styles.
-            var styles = [
-                {
-                    stylers: [
-                        {hue: "#00ffe6"},
-                        {saturation: -20}
-                    ]
-                }, {
-                    featureType: "road",
-                    elementType: "geometry",
-                    stylers: [
-                        {lightness: 100},
-                        {visibility: "simplified"}
-                    ]
-                }, {
-                    featureType: "road",
-                    elementType: "labels",
-                    stylers: [
-                        {visibility: "off"}
-                    ]
-                }
-            ];
-            // Create a new StyledMapType object, passing it the array of styles,
-            // as well as the name to be displayed on the map type control.
-            var styledMap = new google.maps.StyledMapType(styles,
-                    {name: "Styled Map"});
-
-            // Create a map object, and include the MapTypeId to add
-            // to the map type control.
-            var mapOptions = {
-                zoom: 11,
-                center: new google.maps.LatLng(55.6468, 37.581),
-                mapTypeControlOptions: {
-                    mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
-                }
-            };
-            var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
-
-            //Associate the styled map with the MapTypeId and set it to display.
-            map.mapTypes.set('map_style', styledMap);
-            map.setMapTypeId('map_style');
-        }
-    </script>
 
 </main>
 
@@ -358,11 +360,9 @@
         <a href="#about" class="footer-link">About</a>
         <span class="footer-separator"></span>
         <a href="#contact" class="footer-link">Contact</a>
-
     </div>
 </footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/common.js"></script>
 </body>
