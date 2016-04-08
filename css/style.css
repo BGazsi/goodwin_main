@@ -3,6 +3,11 @@ body {
     padding: 0;
 }
 
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
+
 .header-bar {
     width: 100%;
     position: fixed;
@@ -10,11 +15,20 @@ body {
     height: 60px;
     background: #FF9595;
     z-index: 3;
-    clip: rect(auto auto auto auto);
     display: none;
 }
 
-.header-bar .content--md {
+.top-header-bar {
+    width: 100%;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    height: 60px;
+    z-index: 3;
+}
+
+.header-bar .content--md,
+.top-header-bar .content--md {
     padding-top: 17px;
 }
 
@@ -22,8 +36,22 @@ body {
     cursor: pointer;
 }
 
-.header-bar img {
+.menu-control--close {
+    margin-right: 10px;
+}
+
+.header-bar img,
+.top-header-bar img{
     max-width: 25px;
+}
+
+.menu-bg {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: #FF9595;
+    z-index: 3;
+    display: none;
 }
 
 a.anchor {

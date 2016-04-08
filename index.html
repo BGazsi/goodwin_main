@@ -10,8 +10,17 @@
 
 <body>
 
+<div class="menu-bg">
+
+</div>
+
 <header>
     <div class="header-bar">
+        <div class="content content--md">
+            <img src="img/hamburger.png" alt="ham" class="pull-right menu-control" data-hamburger="img/hamburger.png" data-close="img/close.png" data-state="hamburger"/>
+        </div>
+    </div>
+    <div class="top-header-bar">
         <div class="content content--md">
             <img src="img/hamburger.png" alt="ham" class="pull-right menu-control" data-hamburger="img/hamburger.png" data-close="img/close.png" data-state="hamburger"/>
         </div>
