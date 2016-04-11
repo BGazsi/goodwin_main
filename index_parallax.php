@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Goodwin & Company</title>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/browserDetect.js"></script>
     <script type="text/javascript">
         function initialize()
         {
@@ -89,12 +90,12 @@
 
 <main class="main-wrapper">
 
-    <section id="slide-1" class="homeSlide">
-        <div class="bcg" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-1">
+    <section id="slide-1">
+        <div class="bcg" data-anchor-target="#slide-1">
             <div class="hsContainer">
-                <div class="hsContent" data-center="opacity: 1" data-106-top="opacity: 0" data-anchor-target="top">
-                    <div class="gradient-cover">
-                    </div>
+                <div class="hsContent">
+                    <div class="gradient-cover"></div>
+                    <div class="wp"></div>
                     <div class="block block__one">
                         <div class="content content--md">
                             <img src="img/logo.png" alt="Goodwin & Company" class="img-responsive logo"/>
@@ -106,7 +107,7 @@
     </section>
 
     <section id="slide-2">
-        <div class="bcg" data-0="background-color:rgb(1,27,59);" data-top="background-color:(0,0,0);"  data-anchor-target="#slide-2">
+        <div class="bcg" data-anchor-target="#slide-2">
             <div class="hsContainer">
                 <div class="hsContent">
                     <div class="block block__two">
@@ -135,7 +136,7 @@
                                     <div class="item">
                                         <h3>Executive search</h3>
                                         <p class="paragraph paragraph--light">We connect people to organizations that transform brands, grow businesses, and make people's
-                                            lives better - and help them do something they love.</p>
+                                            lives better ­ and help them do something they love.</p>
                                         <p class="paragraph paragraph--light">Because we've actually worked in the advertising and marketing industries so we understand the
                                             dynamics; from working in start ups, to mid size business, to large multinational companies, in
                                             consumer goods, advertising and marketing communications</p>
@@ -427,10 +428,5 @@
     </div>
 </footer>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-<script src="js/imagesloaded.js"></script>
-<script src="js/skrollr.js"></script>
-<script src="js/_main.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/common.js"></script>
