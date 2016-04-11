@@ -42,7 +42,7 @@ var changeState = function(e) {
             $(value).data('state', 'close');
             //$(value).addClass('menu-control--close');
         });
-        $('.menu-bg').slideDown();
+        $('.menu-bg').fadeIn();
         //$('body, html').addClass('stop-scrolling');
         //$('body').bind('touchmove', function(e){e.preventDefault()});
     } else {
@@ -51,7 +51,7 @@ var changeState = function(e) {
             $(value).data('state', 'hamburger');
             //$(value).removeClass('menu-control--close');
         });
-        $('.menu-bg').slideUp();
+        $('.menu-bg').fadeOut();
         //$('body, html').removeClass('stop-scrolling');
         //$('body').unbind('touchmove');
     }
