@@ -330,11 +330,11 @@
             <h2 class="text-left">Hello. <br/> How can we help you?</h2>
             <p class="paragraph paragraph--light">Searching for a new career opportunity, seeking career advice, or simply curious on how to develop
                 your professional skills, please get in touch with us.</p> <br/>
-            <a href="mailto:garygoodwin@goodwin­company.com" class="paragraph paragraph--light email">garygoodwin@goodwin­company.com</a>
+            <a href="mailto:garygoodwin@goodwin-company.com" class="paragraph paragraph--light email">garygoodwin@goodwin-company.com</a>
             <p class="paragraph paragraph--light">080-3405-2142</p> <br/>
             <a href="mailto:michaellong@goodwin-company.com" class="paragraph paragraph--light email">michaellong@goodwin-company.com</a>
             <p class="paragraph paragraph--light">090-9323-3062</p> <br/>
-            <a href="mailto:miokobayashi@goodwin&-company.com" class="paragraph paragraph--light email">miokobayashi@goodwin&-company.com</a>
+            <a href="mailto:miokobayashi@goodwin-company.com" class="paragraph paragraph--light email">miokobayashi@goodwin-company.com</a>
             <p class="paragraph paragraph--light">090-5556-6377</p> <br/>
             <p class="paragraph paragraph--light">Where to find us:</p>
             <p class="paragraph paragraph--light">Ebisu MJ Bldg 3F</p>
