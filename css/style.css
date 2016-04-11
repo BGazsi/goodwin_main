@@ -1,4 +1,27 @@
+@font-face{
+    font-family: geomanist;
+    src: url(../font/geomanist-regular-webfont.eot);
+    src: url(../font/geomanist-regular-webfont.svg) format('svg'),
+    url(../font/geomanist-regular-webfont.woff) format('woff'),
+    url(../font/geomanist-regular-webfont.ttf) format('ttf');
+}
+@font-face{
+    font-family: geomanistBold;
+    src: url(../font/geomanist-bold-webfont.eot);
+    src: url(../font/geomanist-bold-webfont.svg) format('svg'),
+    url(../font/geomanist-bold-webfont.woff) format('woff'),
+    url(../font/geomanist-bold-webfont.ttf) format('ttf');
+}
+@font-face{
+    font-family: geomanistBook;
+    src: url(../font/geomanist-book-webfont.eot);
+    src: url(../font/geomanist-book-webfont.svg) format('svg'),
+    url(../font/geomanist-book-webfont.woff) format('woff'),
+    url(../font/geomanist-book-webfont.ttf) format('ttf');
+}
+
 body {
+    font-family: geomanist;
     margin: 0;
     padding: 0;
 }
@@ -34,13 +57,17 @@ body {
 
 .menu-control {
     cursor: pointer;
+    position: fixed;
+    top: 17px;
+    z-index: 80;
+    right: 17px;
 }
-/*
-@media(min-width: 991px){
-    .menu-control--close {
-        margin-right: 10px;
+
+@media(min-width: 991px) {
+    .menu-control {
+        right: 17%;
     }
-}*/
+}
 
 .header-bar img,
 .top-header-bar img{
@@ -65,7 +92,7 @@ body {
     display: block;
     margin-top: 30px;
     font-size: 16px;
-    font-weight: 600;
+    font-family: geomanistBold;
 }
 
 a.anchor {
@@ -107,7 +134,7 @@ a.anchor {
 }
 
 .content {
-    padding: 30px 0;
+    padding: 25px 0;
     width: 85%;
     margin: 0 auto;
 }
@@ -131,7 +158,7 @@ a.anchor {
 }
 
 .paragraph--dark {
-    color: #747474;
+    color: #393939;
 }
 
 .paragraph--light {
@@ -258,7 +285,7 @@ a:hover, a:active, a:focus {
 h1, h2, h3 {
     text-transform: uppercase;
     margin: 0;
-    font-weight: 800;
+    font-family: geomanistBold;
 }
 
 h2 {
@@ -266,12 +293,19 @@ h2 {
     margin-bottom: 15px;
 }
 
+h4 {
+    font-family: geomanistBold;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 0;
+}
+
 p {
     margin: 0;
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 25px;
     display: inline;
 }
 
@@ -283,18 +317,18 @@ h3 {
 }
 
 .header-container {
-    height: 95px;
+    height: 135px;
     display: block;
 }
 
 .header {
     position: absolute;
     top: 5px;
-    padding-top: 30px;
+    padding-top: 50px;
     width: 100%;
     text-align: center;
-    color: #333;
-    height: 90px;
+    color: #393939;
+    height: 130px;
 }
 
 .header--white {
@@ -319,6 +353,10 @@ h3 {
 }
 
 /*carousel*/
+.carousel {
+    margin-top: 25px;
+}
+
 .carousel-control,
 .carousel-control.right,
 .carousel-control.left {
@@ -328,6 +366,7 @@ h3 {
 }
 
 .carousel-inner {
+    max-width: 450px;
     width: 60%;
     margin: 0 auto;
 }
@@ -426,7 +465,6 @@ h3 {
 }
 
 .block__three p {
-    margin-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -443,11 +481,19 @@ h3 {
     background-position: center;
 }
 
+.block__four .content--md {
+    padding-top: 0;
+}
+
 .block__five .about--small {
     text-align: center;
     width: 100%;
     padding: 60px 25%;
     border-top: 5px solid #c3c3c3;
+}
+
+.block__five .content--lg {
+    padding: 0;
 }
 
 @media(max-width: 768px) {
@@ -466,6 +512,10 @@ h3 {
 .block__six {
     background-image: url('../img/wp6-min.png');
     background-repeat: no-repeat;
+}
+
+.block__six .content {
+    padding: 50px 0;
 }
 
 p.email {

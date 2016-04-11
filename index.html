@@ -15,7 +15,8 @@
                     {
                         zoom: 17,
                         center: myLatlng,
-                        mapTypeId: google.maps.MapTypeId.ROADMAP
+                        mapTypeId: google.maps.MapTypeId.ROADMAP,
+                        scrollwheel: false
                     });
 
             var marker = new google.maps.Marker({
@@ -30,7 +31,13 @@
                     featureType: 'road',
                     elementType: 'geometry',
                     stylers: [
-                        { color: 'white' }
+                        { color: '#FFFFFF' }
+                    ]
+                }, {
+                    featureType: 'poi',
+                    elementType: 'geometry',
+                    stylers: [
+                        { color: '#FFB9B9' }
                     ]
                 }, {
                     featureType: 'road',
@@ -49,7 +56,7 @@
                     featureType: 'landscape',
                     elementType: 'geometry',
                     stylers: [
-                        { color: '#ffd5d5' }
+                        { color: '#FFD5D5' }
                     ]
                 }
             ]);
@@ -72,9 +79,6 @@
 
 <header>
     <div class="header-bar">
-        <div class="content content--md">
-            <img src="img/hamburger.png" alt="ham" class="pull-right menu-control" data-hamburger="img/hamburger.png" data-close="img/close.png" data-state="hamburger"/>
-        </div>
     </div>
     <div class="top-header-bar">
         <div class="content content--md">
