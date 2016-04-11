@@ -125,7 +125,7 @@
                         <h3>Executive search</h3>
                         <p class="paragraph paragraph--light">We connect people to organizations that transform brands, grow businesses, and make people's
                             lives better ­ and help them do something they love.</p>
-                        <p class="paragraph paragraph--light">Because we’ve actually worked in the advertising and marketing industries so we understand the
+                        <p class="paragraph paragraph--light">Because we've actually worked in the advertising and marketing industries so we understand the
                             dynamics; from working in start ups, to mid size business, to large multinational companies, in
                             consumer goods, advertising and marketing communications</p>
                         <p class="paragraph paragraph--light">Our specialties</p>
@@ -145,7 +145,7 @@
                         <h3>Team performance</h3>
                         <p class="paragraph paragraph--light">We provide organizations with training on how to build high performance teams, improving team
                             output and team cohesion.</p>
-                        <p class="paragraph paragraph--light">Because we’re qualified and experienced in assessing individual or team strengths and areas of
+                        <p class="paragraph paragraph--light">Because we're qualified and experienced in assessing individual or team strengths and areas of
                             opportunities for them to work more effectively and harmoniously within organizations</p>
                         <p class="paragraph paragraph--light">Our specialties</p>
                         <p class="paragraph paragraph--light">
@@ -160,7 +160,7 @@
                         <p class="paragraph paragraph--light">We help people communicate more effectively in a wide array of public and business settings.
                             Explain ideas better, engage with the audience deeper, become more capable and confident
                             speakers.</p>
-                        <p class="paragraph paragraph--light">Because we’re experienced and trained in the art of story telling and have the relevant knowledge
+                        <p class="paragraph paragraph--light">Because we're experienced and trained in the art of story telling and have the relevant knowledge
                             and understanding of the communication challenges people face within organizations</p>
                         <p class="paragraph paragraph--light">Our specialties</p>
                         <p class="paragraph paragraph--light">
@@ -175,7 +175,7 @@
                         <h3>Career Development</h3>
                         <p class="paragraph paragraph--light">We guide people along their career path and support them on their career development to do
                             something they love.</p>
-                        <p class="paragraph paragraph--light">Because we’re specialists in our field and draw upon real industry and functional knowledge as well
+                        <p class="paragraph paragraph--light">Because we're specialists in our field and draw upon real industry and functional knowledge as well
                             as actual coaching and mentoring expertise</p>
                         <p class="paragraph paragraph--light">Our specialties</p>
                         <p class="paragraph paragraph--light">
@@ -207,9 +207,9 @@
         </div>
         <div class="content content--sm">
             <p class="paragraph paragraph--dark">
-                We are a small team dedicated to understanding and working on your specific needs – whether you’re
+                We are a small team dedicated to understanding and working on your specific needs – whether you're
                 searching for the next big career move, starting a new role, looking for the ideal candidate, wanting to
-                improve your teams performance or simply how to tell a better story – we’re here to help.
+                improve your teams performance or simply how to tell a better story – we're here to help.
             </p>
         </div>
     </div>
@@ -239,7 +239,7 @@
                     <img src="img/poi.png" alt="poi" class="img-responsive">
                 </div>
                 <div class="box__bottom">
-                    <p class="paragraph paragraph--dark">We’re connected. <br/>
+                    <p class="paragraph paragraph--dark">We're connected. <br/>
                         Extensive Japanese and multinational experience.</p>
                 </div>
             </div>
@@ -248,7 +248,7 @@
                     <img src="img/circle.png" alt="circle" class="img-responsive">
                 </div>
                 <div class="box__bottom">
-                    <p class="paragraph paragraph--dark">We’re practical experts. <br/>
+                    <p class="paragraph paragraph--dark">We're practical experts. <br/>
                         Real business experience combined with proven coaching and training methods.</p>
                 </div>
             </div>
@@ -267,7 +267,7 @@
                     <img src="img/poi.png" alt="poi" class="img-responsive">
                 </div>
                 <div class="box__bottom--mobile col-xs-9 row-cell row-cell--vcenter">
-                    <p class="paragraph paragraph--dark">We’re connected. Extensive Japanese and multinational experience.</p>
+                    <p class="paragraph paragraph--dark">We're connected. Extensive Japanese and multinational experience.</p>
                 </div>
             </div>
             <div class="box--mobile row-table">
@@ -275,7 +275,7 @@
                     <img src="img/circle.png" alt="circle" class="img-responsive">
                 </div>
                 <div class="box__bottom--mobile col-xs-9 row-cell row-cell--vcenter">
-                    <p class="paragraph paragraph--dark">We’re practical experts. Real business experience combined with proven coaching and training methods.</p>
+                    <p class="paragraph paragraph--dark">We're practical experts. Real business experience combined with proven coaching and training methods.</p>
                 </div>
             </div>
         </div>

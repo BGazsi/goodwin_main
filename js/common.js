@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    //carousel leptetes, hogy ne udorjon a tetejere
+    //carousel leptetes, hogy ne ugorjon a tetejere
     $('.carousel-control.left').on('click', function() {
         $(this).closest('.carousel').carousel('prev');
     });
