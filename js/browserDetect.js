@@ -41,17 +41,44 @@ var BrowserDetect = {
     ]
 };
 
+//mobil eszkoz detektalasa
+var isMobile = {
+    Android: function() {
+        return navigator.userAgent.match(/Android/i);
+    },
+    BlackBerry: function() {
+        return navigator.userAgent.match(/BlackBerry/i);
+    },
+    iOS: function() {
+        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+    },
+    Opera: function() {
+        return navigator.userAgent.match(/Opera Mini/i);
+    },
+    Windows: function() {
+        return navigator.userAgent.match(/IEMobile/i);
+    },
+    any: function() {
+        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+    }
+};
+
+$(document).ready(function() {
+
 //parallax beszurasa, ha a bongeszo alkalmas ra
-BrowserDetect.init();
-if(BrowserDetect.browser.indexOf("Chrome") > -1
-    || BrowserDetect.browser.indexOf("Firefox") > -1
-    || BrowserDetect.browser.indexOf("Opera") > -1
-    || BrowserDetect.browser.indexOf("Safari") > -1
-    || BrowserDetect.browser.indexOf("Edge") > -1) {
-    var head  = document.getElementsByTagName('head')[0];
-    var link  = document.createElement('link');
-    link.rel  = 'stylesheet';
-    link.type = 'text/css';
-    link.href = 'css/parallax.css';
-    head.appendChild(link);
-}
+    BrowserDetect.init();
+    if(!isMobile.any() && (BrowserDetect.browser.indexOf("Chrome") > -1
+        || BrowserDetect.browser.indexOf("Firefox") > -1
+        || BrowserDetect.browser.indexOf("Opera") > -1
+        || BrowserDetect.browser.indexOf("Safari") > -1
+        || BrowserDetect.browser.indexOf("Edge") > -1)) {
+        var head  = document.getElementsByTagName('head')[0];
+        var link  = document.createElement('link');
+        link.rel  = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'css/parallax.css';
+        head.appendChild(link);
+
+        $('.block').before("");
+    }
+});
