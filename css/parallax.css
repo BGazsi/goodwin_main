@@ -1,0 +1,55 @@
+/*parallax*/
+.bcg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#slide-1 .bcg {
+    background-image: url('../img/wp1-min.png')
+}
+
+#slide-2 .bcg {
+    background-image: url('../img/wp2-min.png')
+}
+
+#slide-3 .bcg {
+    background: white;
+}
+
+#slide-4 .bcg {
+    background-image: url('../img/wp4-min.png')
+}
+
+#slide-6 .bcg {
+    background-image: url('../img/wp6-min.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.hsContainer {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.hsContent {
+    margin: -150px auto 0 auto;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.hsContainer > .hsContent > .block {
+    background: none;
+}
+
+.hsContainer .wp {
+    background: none;
+}

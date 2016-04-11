@@ -452,12 +452,12 @@ h3 {
 .block__one .content {
     z-index: 95;
 }
-/*
+
 .block__two {
     background-image: url('../img/wp2-min.png');
     background-repeat: no-repeat;
     background-position: center;
-}*/
+}
 
 .block__three p {
     margin-bottom: 50px;
@@ -469,12 +469,12 @@ h3 {
         margin-bottom: 25px;
     }
 }
-/*
+
 .block__four {
     background-image: url('../img/wp4-min.png');
     background-repeat: no-repeat;
     background-position: center;
-}*/
+}
 
 .block__four .content--md {
     padding-top: 0;
@@ -503,11 +503,11 @@ h3 {
 .block__five .row {
     margin: 0;
 }
-/*
+
 .block__six {
     background-image: url('../img/wp6-min.png');
     background-repeat: no-repeat;
-}*/
+}
 
 .block__six .content {
     padding: 50px 0;
@@ -558,63 +558,4 @@ footer img {
         position: absolute;
         right: 45px;
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*parallax*/
-.bcg {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-}
-
-#slide-1 .bcg {background-image:url('../img/wp1-min.png')}
-#slide-2 .bcg {background-image:url('../img/wp2-min.png')}
-#slide-3 .bcg {background: white;}
-#slide-4 .bcg {background-image:url('../img/wp4-min.png')}
-#slide-6 .bcg {
-    background-image:url('../img/wp6-min.png');
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-position: left top;
-}
-
-
-.hsContainer {
-    display: table;
-    table-layout: fixed;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-.hsContent {
-    margin: -150px auto 0 auto;
-    display: table-cell;
-    vertical-align: middle;
 }
