@@ -207,9 +207,9 @@
         </div>
         <div class="content content--sm">
             <p class="paragraph paragraph--dark">
-                We are a small team dedicated to understanding and working on your specific needs – whether you're
+                We are a small team dedicated to understanding and working on your specific needs - whether you're
                 searching for the next big career move, starting a new role, looking for the ideal candidate, wanting to
-                improve your teams performance or simply how to tell a better story – we're here to help.
+                improve your teams performance or simply how to tell a better story - we're here to help.
             </p>
         </div>
     </div>
@@ -314,7 +314,7 @@
                     who enjoys seeing connections thrive.</p>
             </div>
             <div class="about--small">
-                <h4>Mio Kobayashi – Research Consultant</h4>
+                <h4>Mio Kobayashi - Research Consultant</h4>
                 <p class="paragraph paragraph--dark">A natural people person who loves help people expand their horizons.</p>
 
             </div>
