@@ -263,6 +263,10 @@ a:hover, a:active, a:focus {
     margin: 0 auto 20px;
 }
 
+.box--mobile:first-of-type {
+    margin-top: 50px;
+}
+
 @media (min-width: 991px) {
     .content--md {
         width: 95%;
@@ -489,6 +493,12 @@ h3 {
 
 .block__five .content--lg {
     padding: 0;
+}
+
+@media(max-width: 991px) {
+    .block__five .row-cell h4 {
+        margin-top: 50px;
+    }
 }
 
 @media(max-width: 768px) {

@@ -23,8 +23,7 @@
             var marker = new google.maps.Marker({
                 position: myLatlng,
                 map: map,
-                draggable:true,
-                title:"Drag me!"
+                draggable:true
             });
 
             map.set('styles', [
@@ -91,7 +90,7 @@
 <main class="main-wrapper">
 
     <section id="slide-1">
-        <div class="bcg" data-anchor-target="#slide-1">
+        <div class="bcg">
             <div class="hsContainer">
                 <div class="hsContent">
                     <div class="gradient-cover"></div>
@@ -107,7 +106,7 @@
     </section>
 
     <section id="slide-2">
-        <div class="bcg" data-anchor-target="#slide-2">
+        <div class="bcg">
             <div class="hsContainer">
                 <div class="hsContent">
                     <div class="block block__two">
@@ -217,7 +216,7 @@
     </section>
 
     <section id="slide-3">
-        <div class="bcg"  data-anchor-target="#slide-3">
+        <div class="bcg">
             <div class="hsContainer">
                 <div class="hsContent">
                     <div class="block block__three">
@@ -239,7 +238,7 @@
     </section>
 
     <section id="slide-4">
-        <div class="bcg"  data-anchor-target="#slide-4">
+        <div class="bcg">
             <div class="hsContainer">
                 <div class="hsContent">
                     <div class="block block__four">
@@ -249,10 +248,38 @@
                                 <div class="row-cell row-cell--vcenter">
                                     <img src="img/dots.png" alt="dots" class="header-before"/>
                                 </div>
-                                <h1 class="row-cell">3 reasons to contact us</h1>
+                                <h1 class="row-cell row-cell--vcenter">3 reasons to contact us</h1>
                             </div>
                         </div>
                         <div class="content content--md">
+
+                            <!-- tablet & mobile -->
+                            <div class="box--mobile row-table">
+                                <div class="box__top--mobile col-xs-3 row-cell row-cell--vcenter">
+                                    <img src="img/heart.png" alt="heart" class="img-responsive">
+                                </div>
+                                <div class="box__bottom--mobile col-xs-9 row-cell row-cell--vcenter">
+                                    <p class="paragraph paragraph--dark">We care. About people, business and result.</p>
+                                </div>
+                            </div>
+                            <div class="box--mobile row-table">
+                                <div class="box__top--mobile col-xs-3 row-cell row-cell--vcenter">
+                                    <img src="img/poi.png" alt="poi" class="img-responsive">
+                                </div>
+                                <div class="box__bottom--mobile col-xs-9 row-cell row-cell--vcenter">
+                                    <p class="paragraph paragraph--dark">We're connected. Extensive Japanese and multinational experience.</p>
+                                </div>
+                            </div>
+                            <div class="box--mobile row-table">
+                                <div class="box__top--mobile col-xs-3 row-cell row-cell--vcenter">
+                                    <img src="img/circle.png" alt="circle" class="img-responsive">
+                                </div>
+                                <div class="box__bottom--mobile col-xs-9 row-cell row-cell--vcenter">
+                                    <p class="paragraph paragraph--dark">We're practical experts. Real business experience combined with proven coaching and training methods.</p>
+                                </div>
+                            </div>
+
+                            <!-- desktop -->
                             <div class="box">
                                 <div class="box__top">
                                     <img src="img/heart.png" alt="heart" class="img-responsive">
@@ -280,32 +307,6 @@
                                         Real business experience combined with proven coaching and training methods.</p>
                                 </div>
                             </div>
-
-                            <!-- tablet & mobile -->
-                            <div class="box--mobile row-table">
-                                <div class="box__top--mobile col-xs-3 row-cell row-cell--vcenter">
-                                    <img src="img/heart.png" alt="heart" class="img-responsive">
-                                </div>
-                                <div class="box__bottom--mobile col-xs-9 row-cell row-cell--vcenter">
-                                    <p class="paragraph paragraph--dark">We care. About people, business and result.</p>
-                                </div>
-                            </div>
-                            <div class="box--mobile row-table">
-                                <div class="box__top--mobile col-xs-3 row-cell row-cell--vcenter">
-                                    <img src="img/poi.png" alt="poi" class="img-responsive">
-                                </div>
-                                <div class="box__bottom--mobile col-xs-9 row-cell row-cell--vcenter">
-                                    <p class="paragraph paragraph--dark">We're connected. Extensive Japanese and multinational experience.</p>
-                                </div>
-                            </div>
-                            <div class="box--mobile row-table">
-                                <div class="box__top--mobile col-xs-3 row-cell row-cell--vcenter">
-                                    <img src="img/circle.png" alt="circle" class="img-responsive">
-                                </div>
-                                <div class="box__bottom--mobile col-xs-9 row-cell row-cell--vcenter">
-                                    <p class="paragraph paragraph--dark">We're practical experts. Real business experience combined with proven coaching and training methods.</p>
-                                </div>
-                            </div>
                         </div>
                         <div class="content content--sm">
                             <p class="paragraph paragraph--dark text-center">Whether you're an individual or a company looking for a way forward, please get in touch to have a
@@ -319,7 +320,7 @@
 
 
     <section id="slide-5">
-        <div class="bcg"  data-anchor-target="#slide-5">
+        <div class="bcg">
             <div class="hsContainer">
                 <div class="hsContent">
                     <div class="block block__five">
@@ -364,7 +365,7 @@
 
 
     <section id="slide-6">
-        <div class="bcg"  data-anchor-target="#slide-6">
+        <div class="bcg">
             <div class="hsContainer">
                 <div class="hsContent">
                     <div class="block block__six">
@@ -397,7 +398,7 @@
 
 
     <section id="slide-7">
-        <div class="bcg"  data-anchor-target="#slide-7">
+        <div class="bcg">
             <div class="hsContainer">
                 <div class="hsContent">
                     <div class="block block__seven">
