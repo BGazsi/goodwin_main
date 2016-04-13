@@ -90,6 +90,21 @@ body {
     font-family: geomanistBold;
 }
 
+.header-link--lang {
+    margin-top: 60px;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.header-link--lang.active {
+    color: #FF5050;
+}
+
+.header-link--lang:not(:first-of-type) {
+    border-left: 1px solid #FF5050;
+    padding-left: 12px;
+}
+
 a.anchor {
     display: block;
     position: relative;
@@ -161,7 +176,7 @@ a.anchor {
 }
 
 a:hover, a:active, a:focus {
-    color: rgba(255, 80, 80, 1);
+    color: #FF5050;
     text-decoration: none;
 }
 
