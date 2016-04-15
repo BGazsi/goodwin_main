@@ -21,10 +21,6 @@
         <a href="#reasons" class="header-link">3 Reasons</a>
         <a href="#about" class="header-link">About</a>
         <a href="#contact" class="header-link">Contact</a>
-        <div class="language-select">
-            <a href="index_parallax_jp.html" class="header-link header-link--lang">JP</a>
-            <a href="index_parallax_en.html" class="header-link header-link--lang active">EN</a>
-        </div>
     </div>
 </div>
 
@@ -34,6 +30,10 @@
     <div class="top-header-bar">
         <div class="content content--md">
             <img src="img/hamburger.png" alt="ham" class="pull-right menu-control" data-hamburger="img/hamburger.png" data-close="img/close.png" data-state="hamburger"/>
+            <div class="language-select">
+                <a href="index_parallax_jp.html" class="header-link header-link--lang">JP</a>
+                <a href="index_parallax_en.html" class="header-link header-link--lang active">EN</a>
+            </div>
         </div>
     </div>
 </header>
@@ -66,7 +66,7 @@
                             <div class="header header--white"><h1><img src="img/dots.png" alt="dots" class="header-before"/>What we do</h1></div>
                         </div>
                         <div class="content content--md">
-                            <div id="whatWeDoCarousel" class="carousel slide" data-ride="false">
+                            <div id="whatWeDoCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
 
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner" role="listbox">
@@ -77,10 +77,12 @@
                                             careers.</p>
                                         <p class="paragraph paragraph--light">Because we know how to combine our commercial and business experience to achieve your full
                                             potential and we are qualified to use leading and proven psychometric and interpersonal tools</p>
-                                        <p class="paragraph paragraph--light">Our specialties</p>
-                                        <p class="paragraph paragraph--light">Leadership development <br/>
-                                            Succeeding in your current or new position <br/>
-                                            Business story telling for leaders</p>
+                                        <p class="paragraph paragraph--light paragraph--bold">Our specialties</p>
+                                        <ul class="list-inline paragraph paragraph--light">
+                                            <li>Leadership development</li>
+                                            <li>Succeeding in your current or new position</li>
+                                            <li>Business story telling for leaders</li>
+                                        </ul>
                                     </div>
 
                                     <div class="item">
@@ -91,16 +93,16 @@
                                             dynamics; from working in start ups, to mid size business, to large multinational companies, in
                                             consumer goods, advertising and marketing communications</p>
                                         <p class="paragraph paragraph--light">Our specialties</p>
-                                        <p class="paragraph paragraph--light">
-                                            Brand & Communication <br/>
-                                            Strategy <br/>
-                                            Creative <br/>
-                                            Digital <br/>
-                                            Marketing <br/>
-                                            Media <br/>
-                                            PR <br/>
-                                            Sales <br/>
-                                        </p>
+                                        <ul class="list-inline paragraph paragraph--light">
+                                            <li>Brand & Communication</li>
+                                            <li>Strategy</li>
+                                            <li>Creative</li>
+                                            <li>Digital</li>
+                                            <li>Marketing</li>
+                                            <li>Media</li>
+                                            <li>PR</li>
+                                            <li>Sales</li>
+                                        </ul>
                                     </div>
 
                                     <div class="item">
@@ -110,11 +112,11 @@
                                         <p class="paragraph paragraph--light">Because we're qualified and experienced in assessing individual or team strengths and areas of
                                             opportunities for them to work more effectively and harmoniously within organizations</p>
                                         <p class="paragraph paragraph--light">Our specialties</p>
-                                        <p class="paragraph paragraph--light">
-                                            Identifying & eliminating obstacles to effective teamwork <br/>
-                                            Building Team performance and capabilities <br/>
-                                            Effective communication
-                                        </p>
+                                        <ul class=" list-inline paragraph paragraph--light">
+                                            <li>Identifying & eliminating obstacles to effective teamwork</li>
+                                            <li>Building Team performance and capabilities</li>
+                                            <li>Effective communication</li>
+                                        </ul>
                                     </div>
 
                                     <div class="item">
@@ -125,12 +127,12 @@
                                         <p class="paragraph paragraph--light">Because we're experienced and trained in the art of story telling and have the relevant knowledge
                                             and understanding of the communication challenges people face within organizations</p>
                                         <p class="paragraph paragraph--light">Our specialties</p>
-                                        <p class="paragraph paragraph--light">
-                                            Story telling for leaders <br/>
-                                            Business Narratives <br/>
-                                            Persuasive presentation <br/>
-                                            Interpersonal skills for public speaking
-                                        </p>
+                                        <ul class=" list-inline paragraph paragraph--light">
+                                            <li>Story telling for leaders</li>
+                                            <li>Business Narratives</li>
+                                            <li>Persuasive presentation</li>
+                                            <li>Interpersonal skills for public speaking</li>
+                                        </ul>
                                     </div>
 
                                     <div class="item">
@@ -140,12 +142,12 @@
                                         <p class="paragraph paragraph--light">Because we're specialists in our field and draw upon real industry and functional knowledge as well
                                             as actual coaching and mentoring expertise</p>
                                         <p class="paragraph paragraph--light">Our specialties</p>
-                                        <p class="paragraph paragraph--light">
-                                            Defining a career path <br/>
-                                            Personal career assessment tools <br/>
-                                            Interview preparation <br/>
-                                            Ongoing mentoring programs
-                                        </p>
+                                        <ul class="list-inline paragraph paragraph--light">
+                                            <li>Defining a career path</li>
+                                            <li>Personal career assessment tools</li>
+                                            <li>Interview preparation</li>
+                                            <li>Ongoing mentoring programs</li>
+                                        </ul>
                                     </div>
                                 </div>
 
@@ -236,8 +238,8 @@
                                     <img src="img/heart.png" alt="heart" class="img-responsive">
                                 </div>
                                 <div class="box__bottom">
-                                    <p class="paragraph paragraph--dark">We care. <br/>
-                                        About people, business and result.</p>
+                                    <h5>We care.</h5>
+                                    <p class="paragraph paragraph--dark">About people, business and result.</p>
                                 </div>
                             </div>
                             <div class="box">
@@ -245,8 +247,8 @@
                                     <img src="img/poi.png" alt="poi" class="img-responsive">
                                 </div>
                                 <div class="box__bottom">
-                                    <p class="paragraph paragraph--dark">We're connected. <br/>
-                                        Extensive Japanese and multinational experience.</p>
+                                    <h5>We're connected.</h5>
+                                    <p class="paragraph paragraph--dark">Extensive Japanese and multinational experience.</p>
                                 </div>
                             </div>
                             <div class="box">
@@ -254,14 +256,10 @@
                                     <img src="img/circle.png" alt="circle" class="img-responsive">
                                 </div>
                                 <div class="box__bottom">
-                                    <p class="paragraph paragraph--dark">We're practical experts. <br/>
-                                        Real business experience combined with proven coaching and training methods.</p>
+                                    <h5>We're practical experts.</h5>
+                                    <p class="paragraph paragraph--dark">Real business experience combined with proven coaching and training methods.</p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="content content--sm">
-                            <p class="paragraph paragraph--dark text-center">Whether you're an individual or a company looking for a way forward, please get in touch to have a
-                                chat about how we might help</p>
                         </div>
                     </div>
                 </div>
@@ -367,16 +365,15 @@
 <footer class="block footer">
 
     <div class="content content--md text-center">
-        <a href="https://jp.linkedin.com/in/ggoodwin" class="pull-right"><img src="img/in.png" alt="in" class="img-responsive"/></a>
-        <a href="#what" class="footer-link">What</a>
-        <span class="footer-separator"></span>
-        <a href="#how" class="footer-link">How</a>
-        <span class="footer-separator"></span>
-        <a href="#reasons" class="footer-link">3 Reasons</a>
-        <span class="footer-separator"></span>
-        <a href="#about" class="footer-link">About</a>
-        <span class="footer-separator"></span>
-        <a href="#contact" class="footer-link">Contact</a>
+        <img src="img/footer_logo.png" alt="goodwin" class="footer-img"/>
+        <a href="https://jp.linkedin.com/in/ggoodwin"><img src="img/in.png" alt="in" class="img-responsive linkedin pull-right"/></a>
+        <ul class="list-inline list-footer">
+            <li><a href="#what" class="footer-link">What</a></li>
+            <li><a href="#how" class="footer-link">How</a></li>
+            <li><a href="#reasons" class="footer-link">3 Reasons</a></li>
+            <li><a href="#about" class="footer-link">About</a></li>
+            <li><a href="#contact" class="footer-link">Contact</a></li>
+        </ul>
     </div>
 </footer>
 
