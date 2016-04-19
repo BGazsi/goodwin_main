@@ -349,6 +349,7 @@ h1, h2, h3 {
     text-transform: uppercase;
     margin: 0;
     font-family: geomanistBold;
+    font-weight: 700;
 }
 
 h2 {
@@ -510,7 +511,7 @@ h3 {
 
 @media (max-width: 345px) {
     .item {
-        height: 800px;
+        height: 850px;
     }
 }
 
