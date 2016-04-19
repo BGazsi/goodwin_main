@@ -113,7 +113,7 @@
                                         <h3>Executive search</h3>
                                         <p class="paragraph paragraph--light">We connect people to organizations that transform brands, grow businesses, and make people's
                                             lives better ­ and help them do something they love.</p>
-                                        <p class="paragraph paragraph--light">Because we’ve actually worked in the
+                                        <p class="paragraph paragraph--light">Because we've actually worked in the
                                             advertising and marketing industries we understand the dynamics; from working
                                             in start ups, to midsize business, to large multinational and Japanese companies,
                                             in consumer goods, advertising and marketing communications.</p>
@@ -136,7 +136,7 @@
                                         <h3>Team performance</h3>
                                         <p class="paragraph paragraph--light">We provide organizations with training on how to build high performance teams, improving team
                                             output and team cohesion.</p>
-                                        <p class="paragraph paragraph--light">Because we’re qualified and experienced in
+                                        <p class="paragraph paragraph--light">Because we're qualified and experienced in
                                             assessing individual or team strengths and areas of opportunities for them
                                             to work more effectively and harmoniously within organisations.</p>
                                         <p class="paragraph paragraph--light"><strong>Our specialties</strong></p>
@@ -152,7 +152,7 @@
                                         <p class="paragraph paragraph--light">We help people communicate more effectively
                                             in a wide array of public and business settings. Explain ideas better, engage
                                             with the audience deeper, become more capable and confident speakers.</p>
-                                        <p class="paragraph paragraph--light">Because we’re experienced and trained in
+                                        <p class="paragraph paragraph--light">Because we're experienced and trained in
                                             the art of business storytelling and have the relevant knowledge and understanding
                                             of the communication challenges people face within organisations.</p>
                                         <p class="paragraph paragraph--light"><strong>Our specialties</strong></p>
@@ -168,7 +168,7 @@
                                         <h3>Career Development</h3>
                                         <p class="paragraph paragraph--light">We guide people along their career path
                                             and support them on their career development to do something they love.</p>
-                                        <p class="paragraph paragraph--light">Because we’re specialists in our field and
+                                        <p class="paragraph paragraph--light">Because we're specialists in our field and
                                             draw upon real industry and functional knowledge as well as actual coaching and mentoring expertise.</p>
                                         <p class="paragraph paragraph--light"><strong>Our specialties</strong></p>
                                         <ul class="list-inline paragraph paragraph--light">
@@ -209,9 +209,9 @@
                         <div class="content content--sm">
                             <p class="paragraph paragraph--dark">
                                 We are a small team dedicated to understanding and working on your specific
-                                needs - whether you’re searching for the next big career move, starting a new role,
-                                looking for the ideal candidate, wanting to improve your team’s performance or simply
-                                how to tell a better story - we’re here to help.
+                                needs - whether you're searching for the next big career move, starting a new role,
+                                looking for the ideal candidate, wanting to improve your team's performance or simply
+                                how to tell a better story - we're here to help.
                             </p>
                         </div>
                     </div>
@@ -337,7 +337,7 @@
                             <div class="about--small">
                                 <h4 class="margin-bottom-zero">Michael Long</h4>
                                 <h4>Senior consulant</h4>
-                                <p class="paragraph paragraph--dark">I’m a bilingual business professional with 15 years
+                                <p class="paragraph paragraph--dark">I'm a bilingual business professional with 15 years
                                     working experience in Japan. A natural net-worker who enjoys seeing connections
                                     thrive and people achieving their career goals.</p>
                             </div>
