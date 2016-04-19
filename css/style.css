@@ -609,6 +609,11 @@ h3 {
     color: #FF5050;
 }
 
+.line {
+    display: block;
+    overflow-x: hidden;
+}
+
 .bottom-margin {
     margin-bottom: 25px;
 }

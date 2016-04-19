@@ -357,7 +357,7 @@
         <div class="bcg">
             <div class="hsContainer">
                 <div class="hsContent">
-                    <img src="img/line.png" alt="" style="display: block"/>
+                    <img src="img/line.png" alt="" class="line"/>
                     <div class="block block__six">
                         <a class="anchor" id="contact"></a>
                         <div class="header-container">
