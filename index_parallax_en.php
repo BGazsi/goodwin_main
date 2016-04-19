@@ -4,12 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Goodwin & Company</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff9696">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <script src="js/browserDetect.js"></script>
     <script src="js/maps.js"></script>
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+    <!-- touch and favicons -->
+
 </head>
 
 <body onload="initialize()">
@@ -77,7 +100,7 @@
                                             careers.</p>
                                         <p class="paragraph paragraph--light">Because we know how to combine our commercial and business experience to achieve your full
                                             potential and we are qualified to use leading and proven psychometric and interpersonal tools</p>
-                                        <p class="paragraph paragraph--light paragraph--bold">Our specialties</p>
+                                        <p class="paragraph paragraph--light"><strong>Our specialties</strong></p>
                                         <ul class="list-inline paragraph paragraph--light">
                                             <li>Leadership development</li>
                                             <li>Succeeding in your current or new position</li>
@@ -92,7 +115,7 @@
                                         <p class="paragraph paragraph--light">Because we've actually worked in the advertising and marketing industries so we understand the
                                             dynamics; from working in start ups, to mid size business, to large multinational companies, in
                                             consumer goods, advertising and marketing communications</p>
-                                        <p class="paragraph paragraph--light">Our specialties</p>
+                                        <p class="paragraph paragraph--light"><strong>Our specialties</strong></p>
                                         <ul class="list-inline paragraph paragraph--light">
                                             <li>Brand & Communication</li>
                                             <li>Strategy</li>
@@ -111,7 +134,7 @@
                                             output and team cohesion.</p>
                                         <p class="paragraph paragraph--light">Because we're qualified and experienced in assessing individual or team strengths and areas of
                                             opportunities for them to work more effectively and harmoniously within organizations</p>
-                                        <p class="paragraph paragraph--light">Our specialties</p>
+                                        <p class="paragraph paragraph--light"><strong>Our specialties</strong></p>
                                         <ul class=" list-inline paragraph paragraph--light">
                                             <li>Identifying & eliminating obstacles to effective teamwork</li>
                                             <li>Building Team performance and capabilities</li>
@@ -126,7 +149,7 @@
                                             speakers.</p>
                                         <p class="paragraph paragraph--light">Because we're experienced and trained in the art of story telling and have the relevant knowledge
                                             and understanding of the communication challenges people face within organizations</p>
-                                        <p class="paragraph paragraph--light">Our specialties</p>
+                                        <p class="paragraph paragraph--light"><strong>Our specialties</strong></p>
                                         <ul class=" list-inline paragraph paragraph--light">
                                             <li>Story telling for leaders</li>
                                             <li>Business Narratives</li>
@@ -141,7 +164,7 @@
                                             something they love.</p>
                                         <p class="paragraph paragraph--light">Because we're specialists in our field and draw upon real industry and functional knowledge as well
                                             as actual coaching and mentoring expertise</p>
-                                        <p class="paragraph paragraph--light">Our specialties</p>
+                                        <p class="paragraph paragraph--light"><strong>Our specialties</strong></p>
                                         <ul class="list-inline paragraph paragraph--light">
                                             <li>Defining a career path</li>
                                             <li>Personal career assessment tools</li>
@@ -317,22 +340,26 @@
         <div class="bcg">
             <div class="hsContainer">
                 <div class="hsContent">
+                    <img src="img/line.png" alt="" style="display: block"/>
                     <div class="block block__six">
                         <a class="anchor" id="contact"></a>
                         <div class="header-container">
-                            <div class="header header--white"><h1><img src="img/dots.png" alt="dots" class="header-before"/>Contact</h1></div>
+                            <div class="header"><h1 class="paragraph--light"><img src="img/dots.png" alt="dots" class="header-before"/>Contact</h1></div>
                         </div>
                         <div class="content content--sm">
-                            <h2 class="text-left">Hello. <br/> How can we help you?</h2>
+                            <h2 class="text-left margin-bottom-zero"><strong class="text-capitalize">Hello.</strong></h2>
+                            <h2 class="noupper subh2">How can we help you?</h2>
+
                             <p class="paragraph paragraph--light">Searching for a new career opportunity, seeking career advice, or simply curious on how to develop
                                 your professional skills, please get in touch with us.</p> <br/>
                             <a href="mailto:garygoodwin@goodwin-company.com" class="paragraph paragraph--light email">garygoodwin@goodwin-company.com</a>
-                            <p class="paragraph paragraph--light">080-3405-2142</p> <br/>
+                            <p class="paragraph paragraph--light">080-3405-2142</p>
                             <a href="mailto:michaellong@goodwin-company.com" class="paragraph paragraph--light email">michaellong@goodwin-company.com</a>
-                            <p class="paragraph paragraph--light">090-9323-3062</p> <br/>
+                            <p class="paragraph paragraph--light">090-9323-3062</p>
                             <a href="mailto:miokobayashi@goodwin-company.com" class="paragraph paragraph--light email">miokobayashi@goodwin-company.com</a>
-                            <p class="paragraph paragraph--light">090-5556-6377</p> <br/>
-                            <p class="paragraph paragraph--light">Where to find us:</p>
+                            <p class="paragraph paragraph--light">090-5556-6377</p>
+
+                            <p class="paragraph paragraph--light email">Where to find us:</p>
                             <p class="paragraph paragraph--light">Ebisu MJ Bldg 3F</p>
                             <p class="paragraph paragraph--light">3-19-10 Higashi</p>
                             <p class="paragraph paragraph--light">Shibuya-Ku</p>

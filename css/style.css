@@ -19,6 +19,13 @@
     url(../font/geomanist-book-webfont.woff) format('woff'),
     url(../font/geomanist-book-webfont.ttf) format('ttf');
 }
+@font-face{
+    font-family: geomanistLight;
+    src: url(../font/geomanist-light-webfont.eot);
+    src: url(../font/geomanist-light-webfont.svg) format('svg'),
+    url(../font/geomanist-light-webfont.woff) format('woff'),
+    url(../font/geomanist-light-webfont.ttf) format('ttf');
+}
 
 body {
     font-family: geomanist;
@@ -185,8 +192,17 @@ a.anchor {
     color: #fff;
 }
 
-.paragraph--bold {
-    font-family: geomanistBold;
+.noupper {
+    text-transform: none;
+}
+
+.margin-bottom-zero {
+    margin-bottom: 0;
+}
+
+.subh2 {
+    margin-top: 0;
+    font-family: geomanistLight;
 }
 
 .list-inline.paragraph li:not(:last-of-type):after {
@@ -324,6 +340,10 @@ a:hover, a:active, a:focus {
     }
 }
 
+strong {
+    font-family: geomanistBold;
+}
+
 /*headers*/
 h1, h2, h3 {
     text-transform: uppercase;
@@ -356,7 +376,7 @@ p {
 }
 
 h1 {
-    font-size: 25px;
+    font-size: 28px;
     display: inline;
 }
 
@@ -588,6 +608,10 @@ h3 {
     color: #FF5050;
 }
 
+.email {
+    margin-top: 30px;
+    display: inline-block;
+}
 
 footer.block {
     padding: 0 10px 40px;
