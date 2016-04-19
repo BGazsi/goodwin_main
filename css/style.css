@@ -614,6 +614,12 @@ h3 {
     overflow-x: hidden;
 }
 
+@media (max-width: 991px) {
+    .line {
+        display: none;
+    }
+}
+
 .bottom-margin {
     margin-bottom: 25px;
 }
