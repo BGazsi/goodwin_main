@@ -42,7 +42,7 @@ var changeState = function(e) {
             $(value).data('state', 'close');
             //$(value).addClass('menu-control--close');
         });
-        $('.menu-bg').fadeIn();
+        $('.menu-bg').fadeIn().css('display', 'table');
         //$('body, html').addClass('stop-scrolling');
         //$('body').bind('touchmove', function(e){e.preventDefault()});
     } else {

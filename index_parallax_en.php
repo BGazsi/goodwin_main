@@ -101,11 +101,11 @@
                                         <p class="paragraph paragraph--light">Because we know how to combine our commercial
                                             and business experience to achieve your full potential and we are qualified to
                                             use leading and proven psychometric and interpersonal tools.</p>
-                                        <p class="paragraph paragraph--light"><strong>Our specialties</strong></p>
+                                        <p class="paragraph paragraph--light our-spec"><strong>Our specialties</strong></p>
                                         <ul class="list-inline paragraph paragraph--light">
-                                            <li>Leadership development</li>
-                                            <li>Succeeding in your current or new position</li>
-                                            <li>Business story telling for leaders</li>
+                                            <li class="no-separator">Leadership development</li>
+                                            <li class="no-separator">Succeeding in your current or new position</li>
+                                            <li class="no-separator">Business story telling for leaders</li>
                                         </ul>
                                     </div>
 
@@ -117,7 +117,7 @@
                                             advertising and marketing industries we understand the dynamics; from working
                                             in start ups, to midsize business, to large multinational and Japanese companies,
                                             in consumer goods, advertising and marketing communications.</p>
-                                        <p class="paragraph paragraph--light"><strong>Our specialties</strong></p>
+                                        <p class="paragraph paragraph--light our-spec"><strong>Our specialties</strong></p>
                                         <ul class="list-inline paragraph paragraph--light">
                                             <li>Brand & Communication</li>
                                             <li>Account management</li>
@@ -139,7 +139,7 @@
                                         <p class="paragraph paragraph--light">Because we're qualified and experienced in
                                             assessing individual or team strengths and areas of opportunities for them
                                             to work more effectively and harmoniously within organisations.</p>
-                                        <p class="paragraph paragraph--light"><strong>Our specialties</strong></p>
+                                        <p class="paragraph paragraph--light our-spec"><strong>Our specialties</strong></p>
                                         <ul class=" list-inline paragraph paragraph--light">
                                             <li>Identifying & eliminating obstacles to effective teamwork</li>
                                             <li>Building team performance and capabilities</li>
@@ -155,9 +155,9 @@
                                         <p class="paragraph paragraph--light">Because we're experienced and trained in
                                             the art of business storytelling and have the relevant knowledge and understanding
                                             of the communication challenges people face within organisations.</p>
-                                        <p class="paragraph paragraph--light"><strong>Our specialties</strong></p>
+                                        <p class="paragraph paragraph--light our-spec"><strong>Our specialties</strong></p>
                                         <ul class=" list-inline paragraph paragraph--light">
-                                            <li>Story telling for leaders</li>
+                                            <li>Storytelling for leaders</li>
                                             <li>Business narratives</li>
                                             <li>Persuasive presentation</li>
                                             <li>Interpersonal skills for public speaking</li>
@@ -170,7 +170,7 @@
                                             and support them on their career development to do something they love.</p>
                                         <p class="paragraph paragraph--light">Because we're specialists in our field and
                                             draw upon real industry and functional knowledge as well as actual coaching and mentoring expertise.</p>
-                                        <p class="paragraph paragraph--light"><strong>Our specialties</strong></p>
+                                        <p class="paragraph paragraph--light our-spec"><strong>Our specialties</strong></p>
                                         <ul class="list-inline paragraph paragraph--light">
                                             <li>Defining a career path</li>
                                             <li>Personal career assessment tools</li>
@@ -272,7 +272,7 @@
                                 </div>
                                 <div class="box__bottom">
                                     <h5>We care.</h5>
-                                    <p class="paragraph paragraph--dark">People and results are always our key focus.</p>
+                                    <p class="paragraph paragraph--dark">People and results are <br/>always our key focus.</p>
                                 </div>
                             </div>
                             <div class="box">
@@ -313,7 +313,7 @@
                         <div class="content content--lg">
                             <div class="row row-table">
                                 <div class="col-sm-6 row-cell row-cell--vcenter">
-                                    <img src="img/goodwin.png" alt="Garyy Goodwin" class="img-responsive"/>
+                                    <img src="img/goodwin.jpg" alt="Garyy Goodwin" class="img-responsive"/>
                                 </div>
                                 <div class="col-sm-6 row-cell row-cell--vcenter">
                                     <h4 class="bottom-margin">Message from Gary Goodwin, Founder</h4>
@@ -328,7 +328,7 @@
                                         to later launch my own executive search and coaching practice - in line with a
                                         life long philosophy that has never changed; "Do something you love". </p>
                                     <p class="paragraph paragraph--dark">As an ontological coach trained by Newfield,
-                                        a certified practitioner in various psychometric tools (MBTI®, Firo-B®, Hogan), my focus
+                                        a certified practitioner in various psychometric tools (MBTI &reg;, Firo-B &reg;, Hogan), my focus
                                         is to help people find new perspectives and open up to new possibilities in their
                                         professional lives. I thrive on being able to underpin my real world business
                                         experience with practical advice to better aid those I am coaching or mentoring in organisations. </p>
@@ -336,7 +336,7 @@
                             </div>
                             <div class="about--small">
                                 <h4 class="margin-bottom-zero">Michael Long</h4>
-                                <h4>Senior consulant</h4>
+                                <h4>Senior Consultant</h4>
                                 <p class="paragraph paragraph--dark">I'm a bilingual business professional with 15 years
                                     working experience in Japan. A natural net-worker who enjoys seeing connections
                                     thrive and people achieving their career goals.</p>
@@ -345,7 +345,7 @@
                                 <h4 class="margin-bottom-zero">Mio Kobayashi</h4>
                                 <h4>Research Consultant</h4>
                                 <p class="paragraph paragraph--dark">Helping people expand their horizons, realise their
-                                    dreams, always make me very happy. I enjoy talking and meeting people from all walks of life.</p>
+                                    dreams, always make me very happy. <br/> I enjoy talking and meeting people from all walks of life.</p>
                             </div>
                         </div>
                     </div>
@@ -413,9 +413,9 @@
 
 <footer class="block footer">
 
-    <div class="content content--md text-center">
-        <img src="img/footer_logo.png" alt="goodwin" class="footer-img"/>
+    <div class="content content--md text-center row">
         <a href="https://jp.linkedin.com/in/ggoodwin"><img src="img/in.png" alt="in" class="img-responsive linkedin pull-right"/></a>
+        <img src="img/footer_logo.png" alt="goodwin" class="footer-img hidden-sm hidden-xs"/>
         <ul class="list-inline list-footer">
             <li><a href="#what" class="footer-link">What</a></li>
             <li><a href="#how" class="footer-link">How</a></li>
@@ -423,6 +423,7 @@
             <li><a href="#about" class="footer-link">About</a></li>
             <li><a href="#contact" class="footer-link">Contact</a></li>
         </ul>
+        <img src="img/footer_logo.png" alt="goodwin" class="footer-img hidden-lg hidden-md"/>
     </div>
 </footer>
 

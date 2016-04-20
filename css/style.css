@@ -96,7 +96,8 @@ body {
 }
 
 .menu-bg .content--md {
-    margin-top: 60px;
+    vertical-align: middle;
+    display: table-cell;
 }
 
 .header-link {
@@ -105,6 +106,12 @@ body {
     margin-top: 30px;
     font-size: 25px;
     font-family: geomanistBold;
+}
+
+@media (min-width: 992px) {
+    .header-link:not(.header-link--lang) {
+        font-size: 35px;
+    }
 }
 
 .header-link--lang {
@@ -205,7 +212,7 @@ a.anchor {
     font-family: geomanistLight;
 }
 
-.list-inline.paragraph li:not(:last-of-type):after {
+.list-inline.paragraph li:not(:last-of-type):not(.no-separator):after {
     content: "\2022";
     color: #FF9595;
     font-size: 15px;
@@ -288,6 +295,10 @@ a:hover, a:active, a:focus {
     }
     .row-table--mobile .row-cell--vcenter {
         vertical-align: middle;
+    }
+
+    .subh2 {
+        font-size: 25px;
     }
 }
 
@@ -485,6 +496,16 @@ h3 {
     .item {
         height: 505px;
     }
+
+    .carousel-inner {
+        width: 100%;
+    }
+
+    .carousel-inner .item .paragraph {
+        width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media (max-width: 460px) {
@@ -515,6 +536,10 @@ h3 {
     }
 }
 
+.our-spec {
+    font-size: 18px;
+}
+
 /*blocks*/
 
 .block__one {
@@ -534,6 +559,7 @@ h3 {
     background-image: url('../img/wp2-min.png');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 600%;
 }
 
 .block__three p {
@@ -551,6 +577,7 @@ h3 {
     background-image: url('../img/wp4-min.png');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 500%;
 }
 
 .block__four .content--md {
@@ -582,6 +609,9 @@ h3 {
     .block__five .row-table .row-cell {
         display: block !important;
     }
+    .block__five .about--small {
+        padding: 60px 20%;
+    }
 }
 
 .block__five .row {
@@ -591,6 +621,8 @@ h3 {
 .block__six {
     background-image: url('../img/wp6-min.png');
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300%;
 }
 
 .block__six .content {
@@ -668,20 +700,27 @@ footer .linkedin {
     margin-top: 50px;
 }
 
-@media (max-width: 990px) {
-    .list-footer, .list-footer>li {
+@media (max-width: 991px) {
+    .list-footer, .list-footer > li {
         display: block;
         padding: 0;
         margin-top: 15px;
     }
 
-    .list-footer li:not(:last-of-type):after,
-    .footer-img {
+    .list-footer li:not(:last-of-type):after {
         display: none;
     }
 
     footer .linkedin {
         position: absolute;
-        right: 45px;
+        right: 15px;
     }
+}
+
+.content--md.footer-jp {
+    max-width: 1000px;
+}
+
+.content--md.footer-jp .footer-link {
+    font-size: 11px;
 }
