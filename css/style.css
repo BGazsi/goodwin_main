@@ -464,7 +464,7 @@ h3 {
 
 @media (max-width: 768px) {
     .carousel-inner {
-        width: 65%;
+        width: 67%;
     }
 
     .carousel-control,
@@ -478,7 +478,14 @@ h3 {
     }
 
     h3 {
-        margin-bottom: 80px;
+        margin-bottom: 50px;
+    }
+
+    .block__two h3 {
+        text-align: left;
+        width: 67%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .item {
@@ -522,7 +529,7 @@ h3 {
     .carousel-control,
     .carousel-control.right,
     .carousel-control.left {
-        top: 300px;
+        top: 200px;
     }
 
     .block__three {
@@ -553,6 +560,16 @@ h3 {
 
 .block__one .content {
     z-index: 95;
+}
+
+@media (max-height: 400px) {
+    .block__one,
+    .gradient-cover {
+        height: 500px;
+    }
+    .block__one .logo {
+        margin-top: 70px;
+    }
 }
 
 .block__two {
@@ -598,7 +615,7 @@ h3 {
 
 @media(max-width: 991px) {
     .block__five .row-cell h4 {
-        margin-top: 50px;
+        margin-top: 25px;
     }
 }
 
@@ -627,6 +644,12 @@ h3 {
 
 .block__six .content {
     padding: 50px 0;
+}
+
+@media (max-width: 768px) {
+    .block__six .content {
+        padding-top: 25px;
+    }
 }
 
 .block__six a {

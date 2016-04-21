@@ -17,11 +17,12 @@
     <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
     <link rel="manifest" href="/manifest.json">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff9696">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff9600">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-TileImage" content="/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
@@ -112,7 +113,7 @@
                                     <div class="item">
                                         <h3>Executive search</h3>
                                         <p class="paragraph paragraph--light">We connect people to organizations that transform brands, grow businesses, and make people's
-                                            lives better ­ and help them do something they love.</p>
+                                            lives better - and help them do something they love.</p>
                                         <p class="paragraph paragraph--light">Because we've actually worked in the
                                             advertising and marketing industries we understand the dynamics; from working
                                             in start ups, to midsize business, to large multinational and Japanese companies,
@@ -337,7 +338,7 @@
                             <div class="about--small">
                                 <h4 class="margin-bottom-zero">Michael Long</h4>
                                 <h4>Senior Consultant</h4>
-                                <p class="paragraph paragraph--dark">I'm a bilingual business professional with 15 years
+                                <p class="paragraph paragraph--dark">I'm a bilingual executive recruiter with 15 years
                                     working experience in Japan. A natural net-worker who enjoys seeing connections
                                     thrive and people achieving their career goals.</p>
                             </div>
