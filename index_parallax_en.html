@@ -376,18 +376,18 @@
                                 advice, or simply curious on how to develop your professional skills,
                                 please get in touch with us.</p>
                             <a href="mailto:garygoodwin@goodwin-company.com" class="paragraph paragraph--light email">garygoodwin@goodwin-company.jp</a>
-                            <p class="paragraph paragraph--light">080-3405-2142</p>
+                            <p class="paragraph paragraph--light"><a href="tel:080-3405-2142">080-3405-2142</a></p>
                             <a href="mailto:michaellong@goodwin-company.com" class="paragraph paragraph--light email">michaellong@goodwin-company.jp</a>
-                            <p class="paragraph paragraph--light">090-9323-3062</p>
+                            <p class="paragraph paragraph--light"><a href="tel:090-9323-3062">090-9323-3062</a></p>
                             <a href="mailto:miokobayashi@goodwin-company.com" class="paragraph paragraph--light email">miokobayashi@goodwin-company.jp</a>
-                            <p class="paragraph paragraph--light">090-5556-6377</p>
+                            <p class="paragraph paragraph--light"><a href="tel:090-5556-6377">090-5556-6377</a></p>
 
                             <p class="paragraph paragraph--light email">Where to find us:</p>
                             <p class="paragraph paragraph--light">Ebisu MJ Bldg 3F</p>
                             <p class="paragraph paragraph--light">3-19-10 Higashi</p>
                             <p class="paragraph paragraph--light">Shibuya-ku</p>
                             <p class="paragraph paragraph--light">Tokyo 150-0011</p>
-                            <p class="paragraph paragraph--light">Tel: 03-6427-2374</p>
+                            <p class="paragraph paragraph--light">Tel: <a href="tel:03-6427-2374">03-6427-2374</a></p>
                         </div>
                     </div>
                 </div>
