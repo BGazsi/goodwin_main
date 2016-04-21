@@ -314,7 +314,7 @@
                         <div class="content content--lg">
                             <div class="row row-table">
                                 <div class="col-sm-6 row-cell row-cell--vcenter">
-                                    <img src="img/goodwin.jpg" alt="Garyy Goodwin" class="img-responsive"/>
+                                    <img src="img/goodwin.jpg" alt="Gary Goodwin" class="img-responsive"/>
                                 </div>
                                 <div class="col-sm-6 row-cell row-cell--vcenter">
                                     <h4 class="bottom-margin">Message from Gary Goodwin, Founder</h4>
