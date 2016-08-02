@@ -1,4 +1,3 @@
-<?php header('Content-type: text/html; charset=utf-8'); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -287,7 +286,7 @@
                                 </div>
                                 <div class="box__bottom">
                                     <p class="paragraph paragraph--dark">私たちは、実用的なエクスパートです。実際のビジネス経験
-                                    に基づき開発された、立証済みのコーチングとトレーニング・メソッドを提供しています。</p>
+                                        に基づき開発された、立証済みのコーチングとトレーニング・メソッドを提供しています。</p>
                                 </div>
                             </div>
                         </div>
