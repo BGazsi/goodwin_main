@@ -38,7 +38,7 @@ body {
     position: fixed;
     top: 0;
     height: 60px;
-    background: #FF9595;
+    background: #FF3200;
     z-index: 3;
     display: none;
 }
@@ -90,7 +90,7 @@ body {
     position: fixed;
     height: 100%;
     width: 100%;
-    background: #FF9595;
+    background: #FF3200;
     z-index: 3;
     display: none;
 }
@@ -121,7 +121,7 @@ body {
 }
 
 .header-link--lang.active {
-    color: #FF5050;
+    color: #FFCF03;
 }
 
 .header-link--lang:not(:first-of-type) {
@@ -228,7 +228,7 @@ a.anchor {
 }
 
 a:hover, a:active, a:focus {
-    color: #FF5050;
+    color: #FF9600;
     text-decoration: none;
 }
 
@@ -654,14 +654,14 @@ h3 {
 
 .block__six a {
     margin-bottom: 5px;
-    color: #FF9595;
+    color: #FFFFFF;
     font-family: geomanistBold;
 }
 
 .block__six a:hover,
 .block__six a:active,
 .block__six a:focus {
-    color: #FF5050;
+    color: #FF9600;
 }
 
 .line {

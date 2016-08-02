@@ -26,7 +26,7 @@ function initialize()
             featureType: 'poi',
             elementType: 'geometry',
             stylers: [
-                { color: '#FFB9B9' }
+                { color: '#FF3200' }
             ]
         }, {
             featureType: 'road',
@@ -45,7 +45,7 @@ function initialize()
             featureType: 'landscape',
             elementType: 'geometry',
             stylers: [
-                { color: '#FFD5D5' }
+                { color: '#FF9600' }
             ]
         }
     ]);
