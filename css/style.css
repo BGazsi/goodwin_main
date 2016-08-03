@@ -164,6 +164,7 @@ a.anchor {
 
 @media (max-width: 880px) {
     .wp {
+        background-position: left;
         background-image: url('../img/wp1-min-mobile.png');
     }
 }
