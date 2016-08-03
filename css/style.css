@@ -161,6 +161,13 @@ a.anchor {
     width: 100%;
 }
 
+
+@media (max-width: 991px) {
+    .wp {
+        background-image: url('../img/wp1-min-mobile.png');
+    }
+}
+
 .block {
     margin: 0;
     padding: 0;
@@ -577,6 +584,12 @@ h3 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 600%;
+}
+
+@media (max-width: 991px) {
+    .block__two {
+        background-image: url('../img/wp2-min-mobile.png');
+    }
 }
 
 .block__three p {
