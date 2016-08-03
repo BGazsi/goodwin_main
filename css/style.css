@@ -162,7 +162,7 @@ a.anchor {
 }
 
 
-@media (max-width: 991px) {
+@media (max-width: 880px) {
     .wp {
         background-image: url('../img/wp1-min-mobile.png');
     }
@@ -586,7 +586,7 @@ h3 {
     background-size: 600%;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 800px) {
     .block__two {
         background-image: url('../img/wp2-min-mobile.png');
     }
