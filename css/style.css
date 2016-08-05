@@ -584,12 +584,11 @@ h3 {
     background-image: url('../img/wp2-min.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 600%;
 }
 
-@media (orientation: landscape) {
+@media (orientation: portrait) {
     .block__two { 
-        background-size: 100%;
+        background-size: 600%;
     }
 }
 
@@ -608,12 +607,11 @@ h3 {
     background-image: url('../img/wp4-min.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 550%;
 }
 
-@media (orientation: landscape) {
+@media (orientation: portrait) {
     .block__four { 
-        background-size: 100%;
+        background-size: 550%;
     }
 }
 
@@ -659,12 +657,11 @@ h3 {
     background-image: url('../img/wp6-min.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 375%;
 }
 
-@media (orientation: landscape) {
+@media (orientation: portrait) {
     .block__six { 
-        background-size: 100%;
+        background-size: 375%;
     }
 }
 
