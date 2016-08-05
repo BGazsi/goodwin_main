@@ -587,6 +587,12 @@ h3 {
     background-size: 600%;
 }
 
+@media (orientation: landscape) {
+    .block__two { 
+        background-size: 100%;
+    }
+}
+
 .block__three p {
     margin-bottom: 50px;
 }
@@ -603,6 +609,12 @@ h3 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 550%;
+}
+
+@media (orientation: landscape) {
+    .block__four { 
+        background-size: 100%;
+    }
 }
 
 .block__four .content--md {
@@ -648,6 +660,12 @@ h3 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 375%;
+}
+
+@media (orientation: landscape) {
+    .block__six { 
+        background-size: 100%;
+    }
 }
 
 .block__six .content {
