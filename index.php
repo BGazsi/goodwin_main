@@ -1,5 +1,7 @@
-<!DOCTYPE html>
-<html manifest="cache.appcache">
+<?php
+ header(Cache-Control: max-age=86200, public)
+ ?><!DOCTYPE html>
+<html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Goodwin & Company</title>
