@@ -379,7 +379,7 @@
                             <a href="mailto:mlong@goodwin-company.jp" class="paragraph paragraph--light email">mlong@goodwin-company.jp</a>
                             <p class="paragraph paragraph--light"><a href="tel:090-9323-3062">090-9323-3062</a></p>
                             <a href="mailto:miokobayashi@goodwin-company.com" class="paragraph paragraph--light email">miokobayashi@goodwin-company.jp</a>
-                            <p class="paragraph paragraph--light"><a href="tel:090-5556-6377">090-5556-6377</a></p>
+                            <p class="paragraph paragraph--light"><a href="tel:090-5556-6377">080-4578-6861</a></p>
 
                             <p class="paragraph paragraph--light email">Where to find us:</p>
                             <p class="paragraph paragraph--light">Ebisu MJ Bldg 3F</p>
