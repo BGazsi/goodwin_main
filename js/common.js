@@ -15,7 +15,7 @@ $(document).ready(function() {
     }
 
     $('.menu-control').on('click', changeState);
-    $('.header-link').on('click', changeState);
+    $('.header-link:not(.header-link--lang)').on('click', changeState);
 });
 
 //header megjelenitese gorgetes utan
